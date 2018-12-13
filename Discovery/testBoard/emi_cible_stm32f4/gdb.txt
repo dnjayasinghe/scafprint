@@ -1,0 +1,16 @@
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Hardware assisted breakpoint 1 at 0x8000cda: file main.c, line 293.
+
+Breakpoint 1, main () at main.c:293
+293	  init(); printf("BUFFER: %p\n", &BUFFER);
+Hardware assisted breakpoint 2 at 0x8000df4: file main.c, line 355.
+
+Breakpoint 2, calculation_test () at main.c:355
+355		mpz_init(Gz);
+$1 = 0x20001a98 "dd93b47d2592f2c19ec57f9983e0a9b0b6ba1dca54f1a154"
+Hardware assisted breakpoint 3 at 0x800105e: file main.c, line 404.
+Hardware assisted breakpoint 4 at 0x8007f54: file stm32f4xx_it.c, line 63.
+Cannot execute this command while the target is running.
+Use the "interrupt" command to stop the target
+and then try again.

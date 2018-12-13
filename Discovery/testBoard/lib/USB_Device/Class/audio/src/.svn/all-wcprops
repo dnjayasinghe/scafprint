@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Class/audio/src
+END
+usbd_audio_out_if.c
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Class/audio/src/usbd_audio_out_if.c
+END
+usbd_audio_core.c
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Class/audio/src/usbd_audio_core.c
+END

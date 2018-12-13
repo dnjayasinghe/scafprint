@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Class/hid/inc
+END
+usbd_hid_core.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Class/hid/inc/usbd_hid_core.h
+END

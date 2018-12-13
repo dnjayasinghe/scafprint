@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/trusted_computing/!svn/ver/18772/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/fat_fs
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/trusted_computing/!svn/ver/18772/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/fat_fs/Makefile
+END

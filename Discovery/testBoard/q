@@ -1,0 +1,9 @@
+
+--Cette ligne, et les suivantes ci-dessous, seront ignorées--
+
+A    emi_cible_stm32f4/build
+A    emi_cible_stm32f4/build/asm.S
+AM   emi_cible_stm32f4/build/stm32f4_usb_cdc_mini_ecsm.bin
+AM   emi_cible_stm32f4/build/stm32f4_usb_cdc_mini_ecsm.elf
+A    emi_cible_stm32f4/build/stm32f4_usb_cdc_mini_ecsm.hex
+M    emi_cible_stm32f4/test

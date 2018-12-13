@@ -1,0 +1,329 @@
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Hardware assisted breakpoint 1 at 0x8000cda: file main.c, line 293.
+
+Breakpoint 1, main () at main.c:293
+293	  init(); printf("BUFFER: %p\n", &BUFFER);
+Hardware assisted breakpoint 2 at 0x8000df4: file main.c, line 355.
+
+Breakpoint 2, calculation_test () at main.c:355
+355		mpz_init(Gz);
+$1 = 0x20001a98 "0472a1cb39961e381e048f1d7810cb98a1f0bc02b4a1fa2e"
+Hardware assisted breakpoint 3 at 0x800105e: file main.c, line 404.
+Hardware assisted breakpoint 4 at 0x8007f54: file stm32f4xx_it.c, line 63.
+
+Breakpoint 3, calculation_test () at main.c:404
+404		printf("QprX: %p QprY %p QprZ %p flag: %p \r\n",&(Qpr.x),&Qpr.y, &Qpr.z,&flag);
+$2 = "x"
+0x20000a14:	0xe2199389	0xb30fb7bb	0x53eeb99b	0xd46b421a
+0x20000a24:	0xbbcbdedf	0x34e78efb
+$3 = "y"
+0x20000a3c:	0x25a92a30	0x83c5c433	0x7a13b18a	0x0b490552
+0x20000a4c:	0x487d031a	0x52ba8c52
+$4 = "z"
+0x20000a64:	0x00000001
+$5 = "flag"
+0x2001fef0:	0x00000001
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Hardware assisted breakpoint 1 at 0x8000cda: file main.c, line 293.
+
+Breakpoint 1, main () at main.c:293
+293	  init(); printf("BUFFER: %p\n", &BUFFER);
+Hardware assisted breakpoint 2 at 0x8000df4: file main.c, line 355.
+
+Breakpoint 2, calculation_test () at main.c:355
+355		mpz_init(Gz);
+$1 = 0x20001a98 "da744b8042986de39f73bf75ef19b12580c8626c2cb30fa3"
+Hardware assisted breakpoint 3 at 0x800105e: file main.c, line 404.
+Hardware assisted breakpoint 4 at 0x8007f54: file stm32f4xx_it.c, line 63.
+
+Breakpoint 3, calculation_test () at main.c:404
+404		printf("QprX: %p QprY %p QprZ %p flag: %p \r\n",&(Qpr.x),&Qpr.y, &Qpr.z,&flag);
+$2 = "x"
+0x20000a14:	0xa19272a8	0x2560d3da	0x9ff7cbae	0xd53ec94f
+0x20000a24:	0xe10e18df	0xd7266dc0
+$3 = "y"
+0x20000a3c:	0x8b9151f3	0x0a270f19	0x9c3dc684	0xedc93cbf
+0x20000a4c:	0x2a7c8b0a	0xfa1fcd78
+$4 = "z"
+0x20000a64:	0x00000001
+$5 = "flag"
+0x2001fef0:	0x00000001
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Hardware assisted breakpoint 1 at 0x8000cda: file main.c, line 293.
+
+Breakpoint 1, main () at main.c:293
+293	  init(); printf("BUFFER: %p\n", &BUFFER);
+Hardware assisted breakpoint 2 at 0x8000df4: file main.c, line 355.
+
+Breakpoint 2, calculation_test () at main.c:355
+355		mpz_init(Gz);
+$1 = 0x20001a98 "94182b3d995a7eaaf0917778b97da683cbd93b977301bd7d"
+Hardware assisted breakpoint 3 at 0x800105e: file main.c, line 404.
+Hardware assisted breakpoint 4 at 0x8007f54: file stm32f4xx_it.c, line 63.
+
+Breakpoint 3, calculation_test () at main.c:404
+404		printf("QprX: %p QprY %p QprZ %p flag: %p \r\n",&(Qpr.x),&Qpr.y, &Qpr.z,&flag);
+$2 = "x"
+0x20000a14:	0xcd793789	0x8a87ec52	0x8efbe7ad	0xe56df6aa
+0x20000a24:	0xdd56ee46	0xe4826284
+$3 = "y"
+0x20000a3c:	0x8e6168e9	0x99cfadf7	0x5ef88993	0x8e4dc415
+0x20000a4c:	0x9569baa5	0x405f6aeb
+$4 = "z"
+0x20000a64:	0x00000001
+$5 = "flag"
+0x2001fef0:	0x00000001
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Hardware assisted breakpoint 1 at 0x8000cda: file main.c, line 293.
+
+Breakpoint 1, main () at main.c:293
+293	  init(); printf("BUFFER: %p\n", &BUFFER);
+Hardware assisted breakpoint 2 at 0x8000df4: file main.c, line 355.
+
+Breakpoint 2, calculation_test () at main.c:355
+355		mpz_init(Gz);
+$1 = 0x20001a98 "e41ed4c72b9fc0a5d0fa4e35a5de00ec49d79a592942eb90"
+Hardware assisted breakpoint 3 at 0x800105e: file main.c, line 404.
+Hardware assisted breakpoint 4 at 0x8007f54: file stm32f4xx_it.c, line 63.
+cfg.gdb:6: Error in sourced command file:
+Unknown remote qXfer reply: OK
+reference_campagne.gdb:5: Error in sourced command file:
+Unknown remote qXfer reply: OK
+Quit
+0x00000000 in ?? ()
+Quit
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Hardware assisted breakpoint 1 at 0x8000cda: file main.c, line 293.
+
+Breakpoint 1, main () at main.c:293
+293	  init(); printf("BUFFER: %p\n", &BUFFER);
+Hardware assisted breakpoint 2 at 0x8000df4: file main.c, line 355.
+
+Breakpoint 2, calculation_test () at main.c:355
+355		mpz_init(Gz);
+$1 = 0x20001a98 "7c40c4ff56daa13130db07c578505ad9e55a544ad8c427ba"
+Hardware assisted breakpoint 3 at 0x800105e: file main.c, line 404.
+Hardware assisted breakpoint 4 at 0x8007f54: file stm32f4xx_it.c, line 63.
+cfg.gdb:6: Error in sourced command file:
+Unknown remote qXfer reply: OK
+Quit
+reference_campagne.gdb:5: Error in sourced command file:
+localhost:2331: Connexion refusée.
+0x00000000 in ?? ()
+Hardware assisted breakpoint 1 at 0x8000cda: file main.c, line 293.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x00000188 in ?? ()
+Hardware assisted breakpoint 2 at 0x8000df4: file main.c, line 355.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x00000188 in ?? ()
+Hardware assisted breakpoint 3 at 0x800105e: file main.c, line 404.
+Hardware assisted breakpoint 4 at 0x8007f54: file stm32f4xx_it.c, line 63.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x00000188 in ?? ()
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Hardware assisted breakpoint 1 at 0x8000cda: file main.c, line 293.
+
+Breakpoint 1, main () at main.c:293
+293	  init(); printf("BUFFER: %p\n", &BUFFER);
+Hardware assisted breakpoint 2 at 0x8000df4: file main.c, line 355.
+
+Breakpoint 2, calculation_test () at main.c:355
+355		mpz_init(Gz);
+$1 = 0x20001a98 "d25b2697853597332d4f8c6fd8c5c059f69352641d468e80"
+Hardware assisted breakpoint 3 at 0x800105e: file main.c, line 404.
+Hardware assisted breakpoint 4 at 0x8007f54: file stm32f4xx_it.c, line 63.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+HardFault_Handler () at stm32f4xx_it.c:37
+37	}
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Hardware assisted breakpoint 1 at 0x8000cda: file main.c, line 293.
+
+Breakpoint 1, main () at main.c:293
+293	  init(); printf("BUFFER: %p\n", &BUFFER);
+Hardware assisted breakpoint 2 at 0x8000df4: file main.c, line 355.
+
+Breakpoint 2, calculation_test () at main.c:355
+355		mpz_init(Gz);
+$1 = 0x20001a98 "6fca6d1af6d40972079709e831d3062522cea206029f932f"
+Hardware assisted breakpoint 3 at 0x800105e: file main.c, line 404.
+Hardware assisted breakpoint 4 at 0x8007f54: file stm32f4xx_it.c, line 63.
+
+Breakpoint 3, calculation_test () at main.c:404
+404		printf("QprX: %p QprY %p QprZ %p flag: %p \r\n",&(Qpr.x),&Qpr.y, &Qpr.z,&flag);
+$2 = "x"
+0x20000a14:	0xf4fce950	0x0b22cfd7	0xad7ef698	0xcf6ce546
+0x20000a24:	0x03197555	0x8eb4da4c
+$3 = "y"
+0x20000a3c:	0x777843d8	0x4f9ebf4f	0xeab52248	0x640962e4
+0x20000a4c:	0x2fb8e313	0xe0dc5be6
+$4 = "z"
+0x20000a64:	0x00000001
+$5 = "flag"
+0x2001fef0:	0x00000001
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Hardware assisted breakpoint 1 at 0x8000cda: file main.c, line 293.
+
+Breakpoint 1, main () at main.c:293
+293	  init(); printf("BUFFER: %p\n", &BUFFER);
+Hardware assisted breakpoint 2 at 0x8000df4: file main.c, line 355.
+
+Breakpoint 2, calculation_test () at main.c:355
+355		mpz_init(Gz);
+$1 = 0x20001a98 "61748886f58eb6aa7284f08c027ec54ebc50a5280ab908f1"
+Hardware assisted breakpoint 3 at 0x800105e: file main.c, line 404.
+Hardware assisted breakpoint 4 at 0x8007f54: file stm32f4xx_it.c, line 63.
+
+Breakpoint 3, calculation_test () at main.c:404
+404		printf("QprX: %p QprY %p QprZ %p flag: %p \r\n",&(Qpr.x),&Qpr.y, &Qpr.z,&flag);
+$2 = "x"
+0x20000a14:	0x6ae62fd9	0x41f4b7e1	0x1e8921e9	0x1b0735e8
+0x20000a24:	0x6ca58e37	0x0cd6e869
+$3 = "y"
+0x20000a3c:	0x2b4e0698	0xbf451253	0x799295c2	0x10b8c6da
+0x20000a4c:	0x87fb94ae	0x5dbc9277
+$4 = "z"
+0x20000a64:	0x00000001
+$5 = "flag"
+0x2001fef0:	0x00000001
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Hardware assisted breakpoint 1 at 0x8000cda: file main.c, line 293.
+
+Breakpoint 1, main () at main.c:293
+293	  init(); printf("BUFFER: %p\n", &BUFFER);
+Hardware assisted breakpoint 2 at 0x8000df4: file main.c, line 355.
+
+Breakpoint 2, calculation_test () at main.c:355
+355		mpz_init(Gz);
+$1 = 0x20001a98 "9ba6c2306564650f63483f32d55b07f9ec0feb04384b3598"
+Hardware assisted breakpoint 3 at 0x800105e: file main.c, line 404.
+Hardware assisted breakpoint 4 at 0x8007f54: file stm32f4xx_it.c, line 63.
+
+Breakpoint 3, calculation_test () at main.c:404
+404		printf("QprX: %p QprY %p QprZ %p flag: %p \r\n",&(Qpr.x),&Qpr.y, &Qpr.z,&flag);
+$2 = "x"
+0x20000a14:	0x15ccd0f4	0x9bf4f3e8	0xd139fa22	0x790623ba
+0x20000a24:	0xf564c07a	0x5a22dcda
+$3 = "y"
+0x20000a3c:	0x161144b5	0xe6a9ae4a	0x67e4a79f	0xac0a35a9
+0x20000a4c:	0x3f603742	0x1c547eb9
+$4 = "z"
+0x20000a64:	0x00000001
+$5 = "flag"
+0x2001fef0:	0x00000001
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Hardware assisted breakpoint 1 at 0x8000cda: file main.c, line 293.
+
+Breakpoint 1, main () at main.c:293
+293	  init(); printf("BUFFER: %p\n", &BUFFER);
+Hardware assisted breakpoint 2 at 0x8000df4: file main.c, line 355.
+
+Breakpoint 2, calculation_test () at main.c:355
+355		mpz_init(Gz);
+$1 = 0x20001a98 "427bc3979b284932248350b5d24e8f294e9053606120d580"
+Hardware assisted breakpoint 3 at 0x800105e: file main.c, line 404.
+Hardware assisted breakpoint 4 at 0x8007f54: file stm32f4xx_it.c, line 63.
+
+Breakpoint 3, calculation_test () at main.c:404
+404		printf("QprX: %p QprY %p QprZ %p flag: %p \r\n",&(Qpr.x),&Qpr.y, &Qpr.z,&flag);
+$2 = "x"
+0x20000a14:	0x982570f0	0xb3e0cdfa	0x2f2b1043	0xc660abb5
+0x20000a24:	0xe6e81e87	0x58fde605
+$3 = "y"
+0x20000a3c:	0x5656a577	0x4deca7b8	0x435d8283	0x78720e4e
+0x20000a4c:	0xbb5f02c9	0x74bc21dc
+$4 = "z"
+0x20000a64:	0x00000001
+$5 = "flag"
+0x2001fef0:	0x00000001
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Hardware assisted breakpoint 1 at 0x8000cda: file main.c, line 293.
+
+Breakpoint 1, main () at main.c:293
+293	  init(); printf("BUFFER: %p\n", &BUFFER);
+Hardware assisted breakpoint 2 at 0x8000df4: file main.c, line 355.
+
+Breakpoint 2, calculation_test () at main.c:355
+355		mpz_init(Gz);
+$1 = 0x20001a98 "21d86737e0923feab3d909746d09f62b8b16c8f3aae61e04"
+Hardware assisted breakpoint 3 at 0x800105e: file main.c, line 404.
+Hardware assisted breakpoint 4 at 0x8007f54: file stm32f4xx_it.c, line 63.
+
+Breakpoint 3, calculation_test () at main.c:404
+404		printf("QprX: %p QprY %p QprZ %p flag: %p \r\n",&(Qpr.x),&Qpr.y, &Qpr.z,&flag);
+$2 = "x"
+0x20000a14:	0x9108318b	0x1f0b0329	0x0b33e5e7	0xa5021f07
+0x20000a24:	0xd2850c50	0x2919cb16
+$3 = "y"
+0x20000a3c:	0xd164851c	0xa369a7e6	0xef2a5a7f	0x5f4e0b2d
+0x20000a4c:	0x71f0c653	0x4cd7dcec
+$4 = "z"
+0x20000a64:	0x00000001
+$5 = "flag"
+0x2001fef0:	0x00000001
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Hardware assisted breakpoint 1 at 0x8000cda: file main.c, line 293.
+
+Breakpoint 1, main () at main.c:293
+293	  init(); printf("BUFFER: %p\n", &BUFFER);
+Hardware assisted breakpoint 2 at 0x8000df4: file main.c, line 355.
+
+Breakpoint 2, calculation_test () at main.c:355
+355		mpz_init(Gz);
+$1 = 0x20001a98 "a0752563ffe2a748d436c7c66ae3e954716d14e90f98d531"
+Hardware assisted breakpoint 3 at 0x800105e: file main.c, line 404.
+Hardware assisted breakpoint 4 at 0x8007f54: file stm32f4xx_it.c, line 63.
+
+Breakpoint 3, calculation_test () at main.c:404
+404		printf("QprX: %p QprY %p QprZ %p flag: %p \r\n",&(Qpr.x),&Qpr.y, &Qpr.z,&flag);
+$2 = "x"
+0x20000a14:	0xab8df4f8	0x769c7a28	0xe9a24605	0x140a8b40
+0x20000a24:	0x6fdf3859	0xd7430885
+$3 = "y"
+0x20000a3c:	0x3cdf4d6b	0x9b432122	0x323fa1ab	0xdb19e999
+0x20000a4c:	0x46186bc1	0x026bcf46
+$4 = "z"
+0x20000a64:	0x00000001
+$5 = "flag"
+0x2001fef0:	0x00000001
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Hardware assisted breakpoint 1 at 0x8000cda: file main.c, line 293.
+
+Breakpoint 1, main () at main.c:293
+293	  init(); printf("BUFFER: %p\n", &BUFFER);
+Hardware assisted breakpoint 2 at 0x8000df4: file main.c, line 355.
+
+Breakpoint 2, calculation_test () at main.c:355
+355		mpz_init(Gz);
+$1 = 0x20001a98 "c14445bcf9f95ae7a1c46ad952837e20867d5c018244ce4f"
+Hardware assisted breakpoint 3 at 0x800105e: file main.c, line 404.
+Hardware assisted breakpoint 4 at 0x8007f54: file stm32f4xx_it.c, line 63.
+
+Breakpoint 3, calculation_test () at main.c:404
+404		printf("QprX: %p QprY %p QprZ %p flag: %p \r\n",&(Qpr.x),&Qpr.y, &Qpr.z,&flag);
+$2 = "x"
+0x20000a14:	0xc61fa0d3	0xeab558b2	0x1f41cc11	0x532f3ecc
+0x20000a24:	0x7baadfbc	0x23accb22
+$3 = "y"
+0x20000a3c:	0x6ce8db44	0xd8d98f06	0x315a0bd5	0xb12e8355
+0x20000a4c:	0x4abe080d	0x4ef26bee
+$4 = "z"
+0x20000a64:	0x00000001
+$5 = "flag"
+0x2001fef0:	0x00000001

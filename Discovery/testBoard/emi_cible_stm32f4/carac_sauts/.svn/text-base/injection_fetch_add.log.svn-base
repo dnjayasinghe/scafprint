@@ -1,0 +1,38 @@
+thanks, you gave me 0 command-line arguments.
+r9             0xb6b6b6b6	3065427638				      |	r9             0xf656b6b6	4132878006
+r12            0x20000564	536872292				      |	r12            0x20000560	536872288
+Injection 0  
+Injection 1  
+r9             0xb6b6b6b6	3065427638				      |	r9             0x11111111	286331153
+Injection 2  
+r8             0x0	0						      |	r8             0x16123636	370292278
+r9             0xb6b6b6b6	3065427638				      |	r9             0x11111111	286331153
+r12            0x20000564	536872292				      |	r12            0x20000560	536872288
+									      >	Breakpoint 1, main () at main.c:22
+									      >	22	{
+									      >	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+									      >
+									      >	Breakpoint 1, main () at main.c:22
+									      >	22	{
+									      >	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+									      >
+r9             0xb6b6b6b6	3065427638				      |	r9             0x11111111	286331153
+Injection 3  
+r9             0xb6b6b6b6	3065427638				      |	r9             0x26108000	638615552
+r9             0xb6b6b6b6	3065427638				      |	r9             0x11111111	286331153
+Injection 4  
+r9             0xb6b6b6b6	3065427638				      |	r9             0x11111111	286331153
+r9             0xb6b6b6b6	3065427638				      |	r9             0x11111111	286331153
+Injection 5  
+r9             0xb6b6b6b6	3065427638				      |	r9             0x11111111	286331153
+r8             0x0	0						      |	r8             0x16123616	370292246
+r9             0xb6b6b6b6	3065427638				      |	r9             0x11111111	286331153
+r12            0x20000564	536872292				      |	r12            0x20000560	536872288
+Injection 6  
+r9             0xb6b6b6b6	3065427638				      |	r9             0x20000000	536870912
+Injection 7  
+r9             0xb6b6b6b6	3065427638				      |	r9             0x26108000	638615552
+r8             0x0	0						      |	r8             0x16113616	370226710
+r9             0xb6b6b6b6	3065427638				      |	r9             0x11111111	286331153
+r12            0x20000564	536872292				      |	r12            0x20000560	536872288
+Injection 8  

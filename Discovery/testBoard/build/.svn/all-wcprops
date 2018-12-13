@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/trusted_computing/!svn/ver/21350/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/build
+END
+stm32f4_usb_cdc_ecp_openssl.bin
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/trusted_computing/!svn/ver/21350/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/build/stm32f4_usb_cdc_ecp_openssl.bin
+END
+stm32f4_usb_cdc.hex
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/trusted_computing/!svn/ver/21350/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/build/stm32f4_usb_cdc.hex
+END
+stm32f4_usb_cdc.elf
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/trusted_computing/!svn/ver/21350/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/build/stm32f4_usb_cdc.elf
+END
+stm32f4_usb_cdc.bin
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/trusted_computing/!svn/ver/21350/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/build/stm32f4_usb_cdc.bin
+END
+assembly
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/trusted_computing/!svn/ver/21350/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/build/assembly
+END
+stm32f4_usb_cdc_ecp_openssl.hex
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/trusted_computing/!svn/ver/21350/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/build/stm32f4_usb_cdc_ecp_openssl.hex
+END
+stm32f4_usb_cdc_ecp_openssl.elf
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/trusted_computing/!svn/ver/21350/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/build/stm32f4_usb_cdc_ecp_openssl.elf
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Host/Core/src
+END
+usbh_stdreq.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Host/Core/src/usbh_stdreq.c
+END
+usbh_core.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Host/Core/src/usbh_core.c
+END
+usbh_hcs.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Host/Core/src/usbh_hcs.c
+END
+usbh_ioreq.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Host/Core/src/usbh_ioreq.c
+END

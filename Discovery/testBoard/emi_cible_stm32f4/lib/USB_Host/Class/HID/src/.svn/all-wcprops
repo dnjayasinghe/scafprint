@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Host/Class/HID/src
+END
+usbh_hid_core.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Host/Class/HID/src/usbh_hid_core.c
+END
+usbh_hid_mouse.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Host/Class/HID/src/usbh_hid_mouse.c
+END
+usbh_hid_keybd.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Host/Class/HID/src/usbh_hid_keybd.c
+END

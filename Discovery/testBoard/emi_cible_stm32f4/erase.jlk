@@ -1,0 +1,5 @@
+h
+device STM32F407VG
+erase
+r
+q

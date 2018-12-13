@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Class/msc/inc
+END
+usbd_msc_bot.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Class/msc/inc/usbd_msc_bot.h
+END
+usbd_msc_core.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Class/msc/inc/usbd_msc_core.h
+END
+usbd_msc_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Class/msc/inc/usbd_msc_data.h
+END
+usbd_msc_mem.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Class/msc/inc/usbd_msc_mem.h
+END
+usbd_msc_scsi.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Class/msc/inc/usbd_msc_scsi.h
+END

@@ -1,0 +1,116 @@
+#pkill -9 JLkGDB.sh
+#JLinkGDBServer -select usb -if jtag -speed 25000 -device stm32f407vg&
+./Inject_minimal.pl "10000" "reference_campagne.gdb" "build/stm32f4_usb_cdc_mini_ecsm.elf"
+reference_campagne.gdb:5: Error in sourced command file:
+localhost:2331: Connexion refusée.
+Injection 1
+0x00000000 in ?? ()
+Hardware assisted breakpoint 1 at 0x8000ce6: file main.c, line 293.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+HardFault_Handler () at stm32f4xx_it.c:37
+37	}
+Hardware assisted breakpoint 2 at 0x8000e00: file main.c, line 355.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x00000000 in ?? ()
+Hardware assisted breakpoint 3 at 0x800106a: file main.c, line 404.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x00000000 in ?? ()
+Hardware assisted breakpoint 4 at 0x8007f60: file stm32f4xx_it.c, line 63.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x00000000 in ?? ()
+Injection 2
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Hardware assisted breakpoint 1 at 0x8000ce6: file main.c, line 293.
+
+Breakpoint 1, main () at main.c:293
+warning: Source file is more recent than executable.
+293	  init(); printf("BUFFER: %p\n", &BUFFER);
+Hardware assisted breakpoint 2 at 0x8000e00: file main.c, line 355.
+
+Breakpoint 2, calculation_test () at main.c:355
+355		mpz_init(Gz);
+$1 = 0x20001a98 "e43e0a2df0f5867c103c73b0a0e8d464dfab0c04180ecb15"
+Hardware assisted breakpoint 3 at 0x800106a: file main.c, line 404.
+
+Breakpoint 3, calculation_test () at main.c:404
+404		printf("QprX: %p QprY %p QprZ %p flag: %p \r\n",&(Qpr.x),&Qpr.y, &Qpr.z,&flag);
+$2 = "x"
+0x20000a14:	0x06385b5a	0xae007cbc	0xb2fe97f7	0xb637c31a
+0x20000a24:	0x929732db	0x67324e88
+$3 = "y"
+0x20000a3c:	0x589c4523	0x62cf836c	0x73abdf83	0xba1a19c5
+0x20000a4c:	0x065873bc	0xaaf147a6
+$4 = "z"
+0x20000a64:	0x00000001
+$5 = "flag"
+0x2001fef0:	0x00000000
+Injection 3
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Hardware assisted breakpoint 1 at 0x8000ce6: file main.c, line 293.
+
+Breakpoint 1, main () at main.c:293
+warning: Source file is more recent than executable.
+293	  init(); printf("BUFFER: %p\n", &BUFFER);
+Hardware assisted breakpoint 2 at 0x8000e00: file main.c, line 355.
+
+Breakpoint 2, calculation_test () at main.c:355
+355		mpz_init(Gz);
+$1 = 0x20001a98 "fe0ff983ab64232965e75b182633be78b19cce624b19c035"
+Hardware assisted breakpoint 3 at 0x800106a: file main.c, line 404.
+
+Breakpoint 3, calculation_test () at main.c:404
+404		printf("QprX: %p QprY %p QprZ %p flag: %p \r\n",&(Qpr.x),&Qpr.y, &Qpr.z,&flag);
+$2 = "x"
+0x20000a14:	0x8df1b9fd	0x7c9bb3f4	0x110bdec3	0xea3789d8
+0x20000a24:	0x53e641f2	0x64ce2741
+$3 = "y"
+0x20000a3c:	0x506dc171	0xb4eed745	0x20af5ffe	0xdf805e0a
+0x20000a4c:	0x5bfdfa75	0xb5922778
+$4 = "z"
+0x20000a64:	0x00000001
+$5 = "flag"
+0x2001fef0:	0x00000000
+Injection 4
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Hardware assisted breakpoint 1 at 0x8000ce6: file main.c, line 293.
+
+Breakpoint 1, main () at main.c:293
+warning: Source file is more recent than executable.
+293	  init(); printf("BUFFER: %p\n", &BUFFER);
+Hardware assisted breakpoint 2 at 0x8000e00: file main.c, line 355.
+
+Breakpoint 2, calculation_test () at main.c:355
+355		mpz_init(Gz);
+$1 = 0x20001a98 "b5faf867dd00e81f74e2fe3597fb68bf2b1f59b64774b572"
+Hardware assisted breakpoint 3 at 0x800106a: file main.c, line 404.
+
+Breakpoint 3, calculation_test () at main.c:404
+404		printf("QprX: %p QprY %p QprZ %p flag: %p \r\n",&(Qpr.x),&Qpr.y, &Qpr.z,&flag);
+$2 = "x"
+0x20000a14:	0x74c4a886	0x36776abc	0x91229045	0xb381a78e
+0x20000a24:	0x9d597d33	0x33f15c0c
+$3 = "y"
+0x20000a3c:	0x31a947e2	0x9033844e	0x1a0a306c	0x07407ee6
+0x20000a4c:	0xa501d355	0x6d79ffee
+$4 = "z"
+0x20000a64:	0x00000001
+$5 = "flag"
+0x2001fef0:	0x00000001
+Injection 5
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Hardware assisted breakpoint 1 at 0x8000ce6: file main.c, line 293.
+
+Breakpoint 1, main () at main.c:293
+warning: Source file is more recent than executable.
+293	  init(); printf("BUFFER: %p\n", &BUFFER);
+Hardware assisted breakpoint 2 at 0x8000e00: file main.c, line 355.
+reference_campagne.gdb:43: Error in sourced command file:
+Remote communication error.  Target disconnected.: Connexion ré-initialisée par le correspondant.

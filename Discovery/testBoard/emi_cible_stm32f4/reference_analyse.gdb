@@ -1,0 +1,77 @@
+
+#set verbose off
+set pagination off
+set confirm off			
+set logging on
+target extended-remote localhost:2331
+#load 
+hb main
+commands 1
+	c
+end
+hb main.c:354
+commands 2
+
+	
+#	x/12xw 0x20001a18
+#	print 1
+	set {int}0x20001a44=0x
+	set {int}0x20001a40=0x
+	set {int}0x20001a3c=0x
+	set {int}0x20001a38=0x
+	set {int}0x20001a34=0x
+	set {int}0x20001a30=0x
+	set {int}0x20001a2c=0x
+	set {int}0x20001a28=0x
+	set {int}0x20001a24=0x
+	set {int}0x20001a20=0x
+	set {int}0x20001a1c=0x
+	set {int}0x20001a18=0x
+#	x/12xw 0x20001a18
+	
+	
+#	set {int}0x20001A0C=0x
+#	set {int}0x20001A08=0x
+#	set {int}0x20001A04=0x
+#	set {int}0x20001A00=0x
+#	set {int}0x200019fc=0x
+#	set {int}0x200019f8=0x
+#	set {int}0x200019f4=0x
+#	set {int}0x200019f0=0x
+#	set {int}0x200019eC=0x
+#	set {int}0x200019e8=0x
+#	set {int}0x200019e4=0x
+#	set {int}0x200019e0=0x
+
+	c
+end
+hb main.c:394
+commands 3
+#	print 1
+	x/3xw 0x2001FF18
+	x/3xw 0x2001FF24
+	x/3xw 0x2001FF30
+	print "x"
+	x/6xw 
+	print "y"
+	x/6xw 
+	print "z"
+	x/1xw 
+	print "flag"
+	x/1xw 
+	
+	quit
+end
+
+hb stm32f4xx_it.c:63
+commands 4
+	i r
+	#x/800xw 0x20000200
+	run
+	c
+end
+run
+c
+set logging off
+quit
+

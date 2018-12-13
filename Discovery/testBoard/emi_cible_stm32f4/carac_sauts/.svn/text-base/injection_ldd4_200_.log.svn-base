@@ -1,0 +1,1217 @@
+thanks, you gave me 0 command-line arguments.
+Injection 0  
+Injection 1  
+Injection 2  
+Injection 3  
+Injection 4  
+Injection 5  
+Injection 6  
+Injection 7  
+Injection 8  
+Injection 9  
+Injection 10  
+Injection 11  
+Reset_Handler () at startup_stm32f4xx.s:69				      |	charge_binaire.gdb:5: Error in sourced command file:
+69	  movs  r1, #0							      |	Remote communication error.  Target disconnected.: Connexion ré-initialisée p
+Hardware assisted breakpoint 1 at 0x8000ae8: file main.c, line 22.	      <
+									      <
+Breakpoint 1, main () at main.c:22					      <
+22	{								      <
+Hardware assisted breakpoint 2 at 0x8000b8e: file main.c, line 75.	      <
+									      <
+Breakpoint 2, main () at main.c:75					      <
+75		asm("ldr	r1, =4096");				      <
+r0             0x40020c00	1073875968				      <
+r1             0xff	255						      <
+r2             0x64	100						      <
+r3             0xffffffff	4294967295				      <
+r4             0x0	0						      <
+r5             0x0	0						      <
+r6             0x0	0						      <
+r7             0xa5a5a5a5	2779096485				      <
+r8             0x0	0						      <
+r9             0x0	0						      <
+r10            0x0	0						      <
+r11            0x0	0						      <
+r12            0x20000200	536871424				      <
+sp             0x2001fff8	0x2001fff8				      <
+lr             0x8000b8f	134220687				      <
+pc             0x8000b8e	0x8000b8e <main+166>			      <
+xpsr           0x21000000	553648128				      <
+MSP            0x2001fff8	537001976				      <
+PSP            0x0	0						      <
+PRIMASK        0x0	0						      <
+BASEPRI        0x0	0						      <
+FAULTMASK      0x0	0						      <
+CONTROL        0x0	0						      <
+Dump of assembler code for function main:				      <
+   0x08000ae8 <+0>:	push	{r4, lr}				      <
+   0x08000aea <+2>:	movs	r0, #8					      <
+   0x08000aec <+4>:	movs	r1, #1					      <
+   0x08000aee <+6>:	bl	0x80008c4 <RCC_AHB1PeriphClockCmd>	      <
+   0x08000af2 <+10>:	ldr	r3, [pc, #160]	; (0x8000b94 <main+172>)      <
+   0x08000af4 <+12>:	mov.w	r2, #61440	; 0xf000		      <
+   0x08000af8 <+16>:	str	r2, [r3, #0]				      <
+   0x08000afa <+18>:	movs	r2, #1					      <
+   0x08000afc <+20>:	strb	r2, [r3, #4]				      <
+   0x08000afe <+22>:	movs	r4, #0					      <
+   0x08000b00 <+24>:	movs	r2, #3					      <
+   0x08000b02 <+26>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b06 <+30>:	strb	r2, [r3, #5]				      <
+   0x08000b08 <+32>:	mov	r1, r3					      <
+   0x08000b0a <+34>:	strb	r4, [r3, #6]				      <
+   0x08000b0c <+36>:	strb	r4, [r3, #7]				      <
+   0x08000b0e <+38>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b12 <+42>:	bl	0x800049c <GPIO_Init>			      <
+   0x08000b16 <+46>:	mov.w	r3, #508	; 0x1fc			      <
+   0x08000b1a <+50>:	movw	r2, #1308	; 0x51c			      <
+   0x08000b1e <+54>:	movt	r3, #8192	; 0x2000		      <
+   0x08000b22 <+58>:	movt	r2, #8192	; 0x2000		      <
+   0x08000b26 <+62>:	str.w	r4, [r3, #4]!				      <
+   0x08000b2a <+66>:	cmp	r3, r2					      <
+   0x08000b2c <+68>:	bne.n	0x8000b26 <main+62>			      <
+   0x08000b2e <+70>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b32 <+74>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b36 <+78>:	mov.w	r1, #4096	; 0x1000		      <
+   0x08000b3a <+82>:	bl	0x80005b4 <GPIO_SetBits>		      <
+   0x08000b3e <+86>:	movs	r3, #10					      <
+   0x08000b40 <+88>:	mov	r2, r3					      <
+   0x08000b42 <+90>:	subs	r3, #1					      <
+   0x08000b44 <+92>:	cmp	r2, #0					      <
+   0x08000b46 <+94>:	bne.n	0x8000b40 <main+88>			      <
+   0x08000b48 <+96>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b4c <+100>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b50 <+104>:	mov.w	r1, #32768	; 0x8000		      <
+   0x08000b54 <+108>:	bl	0x80005b4 <GPIO_SetBits>		      <
+   0x08000b58 <+112>:	mov.w	r7, #2779096485	; 0xa5a5a5a5		      <
+   0x08000b5c <+116>:	mov.w	r1, #0					      <
+   0x08000b60 <+120>:	mov.w	r2, #0					      <
+   0x08000b64 <+124>:	ldr.w	r12, [pc, #48]	; 0x8000b98		      <
+   0x08000b68 <+128>:	str.w	r2, [r12, r1]				      <
+   0x08000b6c <+132>:	add.w	r2, r2, #1				      <
+   0x08000b70 <+136>:	add.w	r1, r1, #4				      <
+   0x08000b74 <+140>:	str.w	r7, [r12, r1]				      <
+   0x08000b78 <+144>:	add.w	r1, r1, #4				      <
+   0x08000b7c <+148>:	cmp	r2, #100	; 0x64			      <
+   0x08000b7e <+150>:	bne.n	0x8000b68 <main+128>			      <
+   0x08000b80 <+152>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b84 <+156>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b88 <+160>:	movs	r1, #255	; 0xff			      <
+   0x08000b8a <+162>:	bl	0x80005c8 <GPIO_Write>			      <
+=> 0x08000b8e <+166>:	ldr	r1, [pc, #12]	; (0x8000b9c)		      <
+   0x08000b90 <+168>:	b.n	0x8000b2e <main+70>			      <
+   0x08000b92 <+170>:	nop						      <
+   0x08000b94 <+172>:	movs	r4, r4					      <
+   0x08000b96 <+174>:	movs	r0, #0					      <
+End of assembler dump.							      <
+0x20000200:	0x00000000	0xa5a5a5a5	0x00000001	0xa5a5a5a5    <
+0x20000210:	0x00000002	0xa5a5a5a5	0x00000003	0xa5a5a5a5    <
+0x20000220:	0x00000004	0xa5a5a5a5	0x00000005	0xa5a5a5a5    <
+0x20000230:	0x00000006	0xa5a5a5a5	0x00000007	0xa5a5a5a5    <
+0x20000240:	0x00000008	0xa5a5a5a5	0x00000009	0xa5a5a5a5    <
+0x20000250:	0x0000000a	0xa5a5a5a5	0x0000000b	0xa5a5a5a5    <
+0x20000260:	0x0000000c	0xa5a5a5a5	0x0000000d	0xa5a5a5a5    <
+0x20000270:	0x0000000e	0xa5a5a5a5	0x0000000f	0xa5a5a5a5    <
+0x20000280:	0x00000010	0xa5a5a5a5	0x00000011	0xa5a5a5a5    <
+0x20000290:	0x00000012	0xa5a5a5a5	0x00000013	0xa5a5a5a5    <
+0x200002a0:	0x00000014	0xa5a5a5a5	0x00000015	0xa5a5a5a5    <
+0x200002b0:	0x00000016	0xa5a5a5a5	0x00000017	0xa5a5a5a5    <
+0x200002c0:	0x00000018	0xa5a5a5a5	0x00000019	0xa5a5a5a5    <
+0x200002d0:	0x0000001a	0xa5a5a5a5	0x0000001b	0xa5a5a5a5    <
+0x200002e0:	0x0000001c	0xa5a5a5a5	0x0000001d	0xa5a5a5a5    <
+0x200002f0:	0x0000001e	0xa5a5a5a5	0x0000001f	0xa5a5a5a5    <
+0x20000300:	0x00000020	0xa5a5a5a5	0x00000021	0xa5a5a5a5    <
+0x20000310:	0x00000022	0xa5a5a5a5	0x00000023	0xa5a5a5a5    <
+0x20000320:	0x00000024	0xa5a5a5a5	0x00000025	0xa5a5a5a5    <
+0x20000330:	0x00000026	0xa5a5a5a5	0x00000027	0xa5a5a5a5    <
+0x20000340:	0x00000028	0xa5a5a5a5	0x00000029	0xa5a5a5a5    <
+0x20000350:	0x0000002a	0xa5a5a5a5	0x0000002b	0xa5a5a5a5    <
+0x20000360:	0x0000002c	0xa5a5a5a5	0x0000002d	0xa5a5a5a5    <
+0x20000370:	0x0000002e	0xa5a5a5a5	0x0000002f	0xa5a5a5a5    <
+0x20000380:	0x00000030	0xa5a5a5a5	0x00000031	0xa5a5a5a5    <
+0x20000390:	0x00000032	0xa5a5a5a5	0x00000033	0xa5a5a5a5    <
+0x200003a0:	0x00000034	0xa5a5a5a5	0x00000035	0xa5a5a5a5    <
+0x200003b0:	0x00000036	0xa5a5a5a5	0x00000037	0xa5a5a5a5    <
+0x200003c0:	0x00000038	0xa5a5a5a5	0x00000039	0xa5a5a5a5    <
+0x200003d0:	0x0000003a	0xa5a5a5a5	0x0000003b	0xa5a5a5a5    <
+0x200003e0:	0x0000003c	0xa5a5a5a5	0x0000003d	0xa5a5a5a5    <
+0x200003f0:	0x0000003e	0xa5a5a5a5	0x0000003f	0xa5a5a5a5    <
+0x20000400:	0x00000040	0xa5a5a5a5	0x00000041	0xa5a5a5a5    <
+0x20000410:	0x00000042	0xa5a5a5a5	0x00000043	0xa5a5a5a5    <
+0x20000420:	0x00000044	0xa5a5a5a5	0x00000045	0xa5a5a5a5    <
+0x20000430:	0x00000046	0xa5a5a5a5	0x00000047	0xa5a5a5a5    <
+0x20000440:	0x00000048	0xa5a5a5a5	0x00000049	0xa5a5a5a5    <
+0x20000450:	0x0000004a	0xa5a5a5a5	0x0000004b	0xa5a5a5a5    <
+0x20000460:	0x0000004c	0xa5a5a5a5	0x0000004d	0xa5a5a5a5    <
+0x20000470:	0x0000004e	0xa5a5a5a5	0x0000004f	0xa5a5a5a5    <
+0x20000480:	0x00000050	0xa5a5a5a5	0x00000051	0xa5a5a5a5    <
+0x20000490:	0x00000052	0xa5a5a5a5	0x00000053	0xa5a5a5a5    <
+0x200004a0:	0x00000054	0xa5a5a5a5	0x00000055	0xa5a5a5a5    <
+0x200004b0:	0x00000056	0xa5a5a5a5	0x00000057	0xa5a5a5a5    <
+0x200004c0:	0x00000058	0xa5a5a5a5	0x00000059	0xa5a5a5a5    <
+0x200004d0:	0x0000005a	0xa5a5a5a5	0x0000005b	0xa5a5a5a5    <
+0x200004e0:	0x0000005c	0xa5a5a5a5	0x0000005d	0xa5a5a5a5    <
+0x200004f0:	0x0000005e	0xa5a5a5a5	0x0000005f	0xa5a5a5a5    <
+0x20000500:	0x00000060	0xa5a5a5a5	0x00000061	0xa5a5a5a5    <
+0x20000510:	0x00000062	0xa5a5a5a5	0x00000063	0xa5a5a5a5    <
+Reset_Handler () at startup_stm32f4xx.s:69				      |	0x00000000 in ?? ()
+69	  movs  r1, #0							      <
+Injection 12  
+Injection 13  
+Injection 14  
+Injection 15  
+Injection 16  
+Injection 17  
+Injection 18  
+Injection 19  
+Injection 20  
+Injection 21  
+Injection 22  
+Injection 23  
+Injection 24  
+Injection 25  
+Injection 26  
+Injection 27  
+Injection 28  
+Injection 29  
+Injection 30  
+Injection 31  
+Injection 32  
+Injection 33  
+Injection 34  
+Injection 35  
+Injection 36  
+Injection 37  
+Injection 38  
+Injection 39  
+Injection 40  
+Injection 41  
+Injection 42  
+Reset_Handler () at startup_stm32f4xx.s:69				      |	charge_binaire.gdb:5: Error in sourced command file:
+69	  movs  r1, #0							      |	Remote communication error.  Target disconnected.: Connexion ré-initialisée p
+Hardware assisted breakpoint 1 at 0x8000ae8: file main.c, line 22.	      <
+									      <
+Breakpoint 1, main () at main.c:22					      <
+22	{								      <
+Hardware assisted breakpoint 2 at 0x8000b8e: file main.c, line 75.	      <
+									      <
+Breakpoint 2, main () at main.c:75					      <
+75		asm("ldr	r1, =4096");				      <
+r0             0x40020c00	1073875968				      <
+r1             0xff	255						      <
+r2             0x64	100						      <
+r3             0xffffffff	4294967295				      <
+r4             0x0	0						      <
+r5             0x0	0						      <
+r6             0x0	0						      <
+r7             0xa5a5a5a5	2779096485				      <
+r8             0x0	0						      <
+r9             0x0	0						      <
+r10            0x0	0						      <
+r11            0x0	0						      <
+r12            0x20000200	536871424				      <
+sp             0x2001fff8	0x2001fff8				      <
+lr             0x8000b8f	134220687				      <
+pc             0x8000b8e	0x8000b8e <main+166>			      <
+xpsr           0x21000000	553648128				      <
+MSP            0x2001fff8	537001976				      <
+PSP            0x0	0						      <
+PRIMASK        0x0	0						      <
+BASEPRI        0x0	0						      <
+FAULTMASK      0x0	0						      <
+CONTROL        0x0	0						      <
+Dump of assembler code for function main:				      <
+   0x08000ae8 <+0>:	push	{r4, lr}				      <
+   0x08000aea <+2>:	movs	r0, #8					      <
+   0x08000aec <+4>:	movs	r1, #1					      <
+   0x08000aee <+6>:	bl	0x80008c4 <RCC_AHB1PeriphClockCmd>	      <
+   0x08000af2 <+10>:	ldr	r3, [pc, #160]	; (0x8000b94 <main+172>)      <
+   0x08000af4 <+12>:	mov.w	r2, #61440	; 0xf000		      <
+   0x08000af8 <+16>:	str	r2, [r3, #0]				      <
+   0x08000afa <+18>:	movs	r2, #1					      <
+   0x08000afc <+20>:	strb	r2, [r3, #4]				      <
+   0x08000afe <+22>:	movs	r4, #0					      <
+   0x08000b00 <+24>:	movs	r2, #3					      <
+   0x08000b02 <+26>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b06 <+30>:	strb	r2, [r3, #5]				      <
+   0x08000b08 <+32>:	mov	r1, r3					      <
+   0x08000b0a <+34>:	strb	r4, [r3, #6]				      <
+   0x08000b0c <+36>:	strb	r4, [r3, #7]				      <
+   0x08000b0e <+38>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b12 <+42>:	bl	0x800049c <GPIO_Init>			      <
+   0x08000b16 <+46>:	mov.w	r3, #508	; 0x1fc			      <
+   0x08000b1a <+50>:	movw	r2, #1308	; 0x51c			      <
+   0x08000b1e <+54>:	movt	r3, #8192	; 0x2000		      <
+   0x08000b22 <+58>:	movt	r2, #8192	; 0x2000		      <
+   0x08000b26 <+62>:	str.w	r4, [r3, #4]!				      <
+   0x08000b2a <+66>:	cmp	r3, r2					      <
+   0x08000b2c <+68>:	bne.n	0x8000b26 <main+62>			      <
+   0x08000b2e <+70>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b32 <+74>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b36 <+78>:	mov.w	r1, #4096	; 0x1000		      <
+   0x08000b3a <+82>:	bl	0x80005b4 <GPIO_SetBits>		      <
+   0x08000b3e <+86>:	movs	r3, #10					      <
+   0x08000b40 <+88>:	mov	r2, r3					      <
+   0x08000b42 <+90>:	subs	r3, #1					      <
+   0x08000b44 <+92>:	cmp	r2, #0					      <
+   0x08000b46 <+94>:	bne.n	0x8000b40 <main+88>			      <
+   0x08000b48 <+96>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b4c <+100>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b50 <+104>:	mov.w	r1, #32768	; 0x8000		      <
+   0x08000b54 <+108>:	bl	0x80005b4 <GPIO_SetBits>		      <
+   0x08000b58 <+112>:	mov.w	r7, #2779096485	; 0xa5a5a5a5		      <
+   0x08000b5c <+116>:	mov.w	r1, #0					      <
+   0x08000b60 <+120>:	mov.w	r2, #0					      <
+   0x08000b64 <+124>:	ldr.w	r12, [pc, #48]	; 0x8000b98		      <
+   0x08000b68 <+128>:	str.w	r2, [r12, r1]				      <
+   0x08000b6c <+132>:	add.w	r2, r2, #1				      <
+   0x08000b70 <+136>:	add.w	r1, r1, #4				      <
+   0x08000b74 <+140>:	str.w	r7, [r12, r1]				      <
+   0x08000b78 <+144>:	add.w	r1, r1, #4				      <
+   0x08000b7c <+148>:	cmp	r2, #100	; 0x64			      <
+   0x08000b7e <+150>:	bne.n	0x8000b68 <main+128>			      <
+   0x08000b80 <+152>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b84 <+156>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b88 <+160>:	movs	r1, #255	; 0xff			      <
+   0x08000b8a <+162>:	bl	0x80005c8 <GPIO_Write>			      <
+=> 0x08000b8e <+166>:	ldr	r1, [pc, #12]	; (0x8000b9c)		      <
+   0x08000b90 <+168>:	b.n	0x8000b2e <main+70>			      <
+   0x08000b92 <+170>:	nop						      <
+   0x08000b94 <+172>:	movs	r4, r4					      <
+   0x08000b96 <+174>:	movs	r0, #0					      <
+End of assembler dump.							      <
+0x20000200:	0x00000000	0xa5a5a5a5	0x00000001	0xa5a5a5a5    <
+0x20000210:	0x00000002	0xa5a5a5a5	0x00000003	0xa5a5a5a5    <
+0x20000220:	0x00000004	0xa5a5a5a5	0x00000005	0xa5a5a5a5    <
+0x20000230:	0x00000006	0xa5a5a5a5	0x00000007	0xa5a5a5a5    <
+0x20000240:	0x00000008	0xa5a5a5a5	0x00000009	0xa5a5a5a5    <
+0x20000250:	0x0000000a	0xa5a5a5a5	0x0000000b	0xa5a5a5a5    <
+0x20000260:	0x0000000c	0xa5a5a5a5	0x0000000d	0xa5a5a5a5    <
+0x20000270:	0x0000000e	0xa5a5a5a5	0x0000000f	0xa5a5a5a5    <
+0x20000280:	0x00000010	0xa5a5a5a5	0x00000011	0xa5a5a5a5    <
+0x20000290:	0x00000012	0xa5a5a5a5	0x00000013	0xa5a5a5a5    <
+0x200002a0:	0x00000014	0xa5a5a5a5	0x00000015	0xa5a5a5a5    <
+0x200002b0:	0x00000016	0xa5a5a5a5	0x00000017	0xa5a5a5a5    <
+0x200002c0:	0x00000018	0xa5a5a5a5	0x00000019	0xa5a5a5a5    <
+0x200002d0:	0x0000001a	0xa5a5a5a5	0x0000001b	0xa5a5a5a5    <
+0x200002e0:	0x0000001c	0xa5a5a5a5	0x0000001d	0xa5a5a5a5    <
+0x200002f0:	0x0000001e	0xa5a5a5a5	0x0000001f	0xa5a5a5a5    <
+0x20000300:	0x00000020	0xa5a5a5a5	0x00000021	0xa5a5a5a5    <
+0x20000310:	0x00000022	0xa5a5a5a5	0x00000023	0xa5a5a5a5    <
+0x20000320:	0x00000024	0xa5a5a5a5	0x00000025	0xa5a5a5a5    <
+0x20000330:	0x00000026	0xa5a5a5a5	0x00000027	0xa5a5a5a5    <
+0x20000340:	0x00000028	0xa5a5a5a5	0x00000029	0xa5a5a5a5    <
+0x20000350:	0x0000002a	0xa5a5a5a5	0x0000002b	0xa5a5a5a5    <
+0x20000360:	0x0000002c	0xa5a5a5a5	0x0000002d	0xa5a5a5a5    <
+0x20000370:	0x0000002e	0xa5a5a5a5	0x0000002f	0xa5a5a5a5    <
+0x20000380:	0x00000030	0xa5a5a5a5	0x00000031	0xa5a5a5a5    <
+0x20000390:	0x00000032	0xa5a5a5a5	0x00000033	0xa5a5a5a5    <
+0x200003a0:	0x00000034	0xa5a5a5a5	0x00000035	0xa5a5a5a5    <
+0x200003b0:	0x00000036	0xa5a5a5a5	0x00000037	0xa5a5a5a5    <
+0x200003c0:	0x00000038	0xa5a5a5a5	0x00000039	0xa5a5a5a5    <
+0x200003d0:	0x0000003a	0xa5a5a5a5	0x0000003b	0xa5a5a5a5    <
+0x200003e0:	0x0000003c	0xa5a5a5a5	0x0000003d	0xa5a5a5a5    <
+0x200003f0:	0x0000003e	0xa5a5a5a5	0x0000003f	0xa5a5a5a5    <
+0x20000400:	0x00000040	0xa5a5a5a5	0x00000041	0xa5a5a5a5    <
+0x20000410:	0x00000042	0xa5a5a5a5	0x00000043	0xa5a5a5a5    <
+0x20000420:	0x00000044	0xa5a5a5a5	0x00000045	0xa5a5a5a5    <
+0x20000430:	0x00000046	0xa5a5a5a5	0x00000047	0xa5a5a5a5    <
+0x20000440:	0x00000048	0xa5a5a5a5	0x00000049	0xa5a5a5a5    <
+0x20000450:	0x0000004a	0xa5a5a5a5	0x0000004b	0xa5a5a5a5    <
+0x20000460:	0x0000004c	0xa5a5a5a5	0x0000004d	0xa5a5a5a5    <
+0x20000470:	0x0000004e	0xa5a5a5a5	0x0000004f	0xa5a5a5a5    <
+0x20000480:	0x00000050	0xa5a5a5a5	0x00000051	0xa5a5a5a5    <
+0x20000490:	0x00000052	0xa5a5a5a5	0x00000053	0xa5a5a5a5    <
+0x200004a0:	0x00000054	0xa5a5a5a5	0x00000055	0xa5a5a5a5    <
+0x200004b0:	0x00000056	0xa5a5a5a5	0x00000057	0xa5a5a5a5    <
+0x200004c0:	0x00000058	0xa5a5a5a5	0x00000059	0xa5a5a5a5    <
+0x200004d0:	0x0000005a	0xa5a5a5a5	0x0000005b	0xa5a5a5a5    <
+0x200004e0:	0x0000005c	0xa5a5a5a5	0x0000005d	0xa5a5a5a5    <
+0x200004f0:	0x0000005e	0xa5a5a5a5	0x0000005f	0xa5a5a5a5    <
+0x20000500:	0x00000060	0xa5a5a5a5	0x00000061	0xa5a5a5a5    <
+0x20000510:	0x00000062	0xa5a5a5a5	0x00000063	0xa5a5a5a5    <
+Reset_Handler () at startup_stm32f4xx.s:69				      |	0x00000000 in ?? ()
+69	  movs  r1, #0							      <
+Injection 43  
+Injection 44  
+Injection 45  
+Injection 46  
+Injection 47  
+Injection 48  
+Injection 49  
+Injection 50  
+Injection 51  
+Injection 52  
+Injection 53  
+Injection 54  
+Injection 55  
+Injection 56  
+Injection 57  
+Injection 58  
+Injection 59  
+Injection 60  
+Injection 61  
+Injection 62  
+Injection 63  
+Injection 64  
+Injection 65  
+Injection 66  
+Injection 67  
+Injection 68  
+Injection 69  
+Injection 70  
+Injection 71  
+Injection 72  
+Injection 73  
+Reset_Handler () at startup_stm32f4xx.s:69				      |	charge_binaire.gdb:5: Error in sourced command file:
+69	  movs  r1, #0							      |	Remote communication error.  Target disconnected.: Connexion ré-initialisée p
+Hardware assisted breakpoint 1 at 0x8000ae8: file main.c, line 22.	      <
+									      <
+Breakpoint 1, main () at main.c:22					      <
+22	{								      <
+Hardware assisted breakpoint 2 at 0x8000b8e: file main.c, line 75.	      <
+									      <
+Breakpoint 2, main () at main.c:75					      <
+75		asm("ldr	r1, =4096");				      <
+r0             0x40020c00	1073875968				      <
+r1             0xff	255						      <
+r2             0x64	100						      <
+r3             0xffffffff	4294967295				      <
+r4             0x0	0						      <
+r5             0x0	0						      <
+r6             0x0	0						      <
+r7             0xa5a5a5a5	2779096485				      <
+r8             0x0	0						      <
+r9             0x0	0						      <
+r10            0x0	0						      <
+r11            0x0	0						      <
+r12            0x20000200	536871424				      <
+sp             0x2001fff8	0x2001fff8				      <
+lr             0x8000b8f	134220687				      <
+pc             0x8000b8e	0x8000b8e <main+166>			      <
+xpsr           0x21000000	553648128				      <
+MSP            0x2001fff8	537001976				      <
+PSP            0x0	0						      <
+PRIMASK        0x0	0						      <
+BASEPRI        0x0	0						      <
+FAULTMASK      0x0	0						      <
+CONTROL        0x0	0						      <
+Dump of assembler code for function main:				      <
+   0x08000ae8 <+0>:	push	{r4, lr}				      <
+   0x08000aea <+2>:	movs	r0, #8					      <
+   0x08000aec <+4>:	movs	r1, #1					      <
+   0x08000aee <+6>:	bl	0x80008c4 <RCC_AHB1PeriphClockCmd>	      <
+   0x08000af2 <+10>:	ldr	r3, [pc, #160]	; (0x8000b94 <main+172>)      <
+   0x08000af4 <+12>:	mov.w	r2, #61440	; 0xf000		      <
+   0x08000af8 <+16>:	str	r2, [r3, #0]				      <
+   0x08000afa <+18>:	movs	r2, #1					      <
+   0x08000afc <+20>:	strb	r2, [r3, #4]				      <
+   0x08000afe <+22>:	movs	r4, #0					      <
+   0x08000b00 <+24>:	movs	r2, #3					      <
+   0x08000b02 <+26>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b06 <+30>:	strb	r2, [r3, #5]				      <
+   0x08000b08 <+32>:	mov	r1, r3					      <
+   0x08000b0a <+34>:	strb	r4, [r3, #6]				      <
+   0x08000b0c <+36>:	strb	r4, [r3, #7]				      <
+   0x08000b0e <+38>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b12 <+42>:	bl	0x800049c <GPIO_Init>			      <
+   0x08000b16 <+46>:	mov.w	r3, #508	; 0x1fc			      <
+   0x08000b1a <+50>:	movw	r2, #1308	; 0x51c			      <
+   0x08000b1e <+54>:	movt	r3, #8192	; 0x2000		      <
+   0x08000b22 <+58>:	movt	r2, #8192	; 0x2000		      <
+   0x08000b26 <+62>:	str.w	r4, [r3, #4]!				      <
+   0x08000b2a <+66>:	cmp	r3, r2					      <
+   0x08000b2c <+68>:	bne.n	0x8000b26 <main+62>			      <
+   0x08000b2e <+70>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b32 <+74>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b36 <+78>:	mov.w	r1, #4096	; 0x1000		      <
+   0x08000b3a <+82>:	bl	0x80005b4 <GPIO_SetBits>		      <
+   0x08000b3e <+86>:	movs	r3, #10					      <
+   0x08000b40 <+88>:	mov	r2, r3					      <
+   0x08000b42 <+90>:	subs	r3, #1					      <
+   0x08000b44 <+92>:	cmp	r2, #0					      <
+   0x08000b46 <+94>:	bne.n	0x8000b40 <main+88>			      <
+   0x08000b48 <+96>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b4c <+100>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b50 <+104>:	mov.w	r1, #32768	; 0x8000		      <
+   0x08000b54 <+108>:	bl	0x80005b4 <GPIO_SetBits>		      <
+   0x08000b58 <+112>:	mov.w	r7, #2779096485	; 0xa5a5a5a5		      <
+   0x08000b5c <+116>:	mov.w	r1, #0					      <
+   0x08000b60 <+120>:	mov.w	r2, #0					      <
+   0x08000b64 <+124>:	ldr.w	r12, [pc, #48]	; 0x8000b98		      <
+   0x08000b68 <+128>:	str.w	r2, [r12, r1]				      <
+   0x08000b6c <+132>:	add.w	r2, r2, #1				      <
+   0x08000b70 <+136>:	add.w	r1, r1, #4				      <
+   0x08000b74 <+140>:	str.w	r7, [r12, r1]				      <
+   0x08000b78 <+144>:	add.w	r1, r1, #4				      <
+   0x08000b7c <+148>:	cmp	r2, #100	; 0x64			      <
+   0x08000b7e <+150>:	bne.n	0x8000b68 <main+128>			      <
+   0x08000b80 <+152>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b84 <+156>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b88 <+160>:	movs	r1, #255	; 0xff			      <
+   0x08000b8a <+162>:	bl	0x80005c8 <GPIO_Write>			      <
+=> 0x08000b8e <+166>:	ldr	r1, [pc, #12]	; (0x8000b9c)		      <
+   0x08000b90 <+168>:	b.n	0x8000b2e <main+70>			      <
+   0x08000b92 <+170>:	nop						      <
+   0x08000b94 <+172>:	movs	r4, r4					      <
+   0x08000b96 <+174>:	movs	r0, #0					      <
+End of assembler dump.							      <
+0x20000200:	0x00000000	0xa5a5a5a5	0x00000001	0xa5a5a5a5    <
+0x20000210:	0x00000002	0xa5a5a5a5	0x00000003	0xa5a5a5a5    <
+0x20000220:	0x00000004	0xa5a5a5a5	0x00000005	0xa5a5a5a5    <
+0x20000230:	0x00000006	0xa5a5a5a5	0x00000007	0xa5a5a5a5    <
+0x20000240:	0x00000008	0xa5a5a5a5	0x00000009	0xa5a5a5a5    <
+0x20000250:	0x0000000a	0xa5a5a5a5	0x0000000b	0xa5a5a5a5    <
+0x20000260:	0x0000000c	0xa5a5a5a5	0x0000000d	0xa5a5a5a5    <
+0x20000270:	0x0000000e	0xa5a5a5a5	0x0000000f	0xa5a5a5a5    <
+0x20000280:	0x00000010	0xa5a5a5a5	0x00000011	0xa5a5a5a5    <
+0x20000290:	0x00000012	0xa5a5a5a5	0x00000013	0xa5a5a5a5    <
+0x200002a0:	0x00000014	0xa5a5a5a5	0x00000015	0xa5a5a5a5    <
+0x200002b0:	0x00000016	0xa5a5a5a5	0x00000017	0xa5a5a5a5    <
+0x200002c0:	0x00000018	0xa5a5a5a5	0x00000019	0xa5a5a5a5    <
+0x200002d0:	0x0000001a	0xa5a5a5a5	0x0000001b	0xa5a5a5a5    <
+0x200002e0:	0x0000001c	0xa5a5a5a5	0x0000001d	0xa5a5a5a5    <
+0x200002f0:	0x0000001e	0xa5a5a5a5	0x0000001f	0xa5a5a5a5    <
+0x20000300:	0x00000020	0xa5a5a5a5	0x00000021	0xa5a5a5a5    <
+0x20000310:	0x00000022	0xa5a5a5a5	0x00000023	0xa5a5a5a5    <
+0x20000320:	0x00000024	0xa5a5a5a5	0x00000025	0xa5a5a5a5    <
+0x20000330:	0x00000026	0xa5a5a5a5	0x00000027	0xa5a5a5a5    <
+0x20000340:	0x00000028	0xa5a5a5a5	0x00000029	0xa5a5a5a5    <
+0x20000350:	0x0000002a	0xa5a5a5a5	0x0000002b	0xa5a5a5a5    <
+0x20000360:	0x0000002c	0xa5a5a5a5	0x0000002d	0xa5a5a5a5    <
+0x20000370:	0x0000002e	0xa5a5a5a5	0x0000002f	0xa5a5a5a5    <
+0x20000380:	0x00000030	0xa5a5a5a5	0x00000031	0xa5a5a5a5    <
+0x20000390:	0x00000032	0xa5a5a5a5	0x00000033	0xa5a5a5a5    <
+0x200003a0:	0x00000034	0xa5a5a5a5	0x00000035	0xa5a5a5a5    <
+0x200003b0:	0x00000036	0xa5a5a5a5	0x00000037	0xa5a5a5a5    <
+0x200003c0:	0x00000038	0xa5a5a5a5	0x00000039	0xa5a5a5a5    <
+0x200003d0:	0x0000003a	0xa5a5a5a5	0x0000003b	0xa5a5a5a5    <
+0x200003e0:	0x0000003c	0xa5a5a5a5	0x0000003d	0xa5a5a5a5    <
+0x200003f0:	0x0000003e	0xa5a5a5a5	0x0000003f	0xa5a5a5a5    <
+0x20000400:	0x00000040	0xa5a5a5a5	0x00000041	0xa5a5a5a5    <
+0x20000410:	0x00000042	0xa5a5a5a5	0x00000043	0xa5a5a5a5    <
+0x20000420:	0x00000044	0xa5a5a5a5	0x00000045	0xa5a5a5a5    <
+0x20000430:	0x00000046	0xa5a5a5a5	0x00000047	0xa5a5a5a5    <
+0x20000440:	0x00000048	0xa5a5a5a5	0x00000049	0xa5a5a5a5    <
+0x20000450:	0x0000004a	0xa5a5a5a5	0x0000004b	0xa5a5a5a5    <
+0x20000460:	0x0000004c	0xa5a5a5a5	0x0000004d	0xa5a5a5a5    <
+0x20000470:	0x0000004e	0xa5a5a5a5	0x0000004f	0xa5a5a5a5    <
+0x20000480:	0x00000050	0xa5a5a5a5	0x00000051	0xa5a5a5a5    <
+0x20000490:	0x00000052	0xa5a5a5a5	0x00000053	0xa5a5a5a5    <
+0x200004a0:	0x00000054	0xa5a5a5a5	0x00000055	0xa5a5a5a5    <
+0x200004b0:	0x00000056	0xa5a5a5a5	0x00000057	0xa5a5a5a5    <
+0x200004c0:	0x00000058	0xa5a5a5a5	0x00000059	0xa5a5a5a5    <
+0x200004d0:	0x0000005a	0xa5a5a5a5	0x0000005b	0xa5a5a5a5    <
+0x200004e0:	0x0000005c	0xa5a5a5a5	0x0000005d	0xa5a5a5a5    <
+0x200004f0:	0x0000005e	0xa5a5a5a5	0x0000005f	0xa5a5a5a5    <
+0x20000500:	0x00000060	0xa5a5a5a5	0x00000061	0xa5a5a5a5    <
+0x20000510:	0x00000062	0xa5a5a5a5	0x00000063	0xa5a5a5a5    <
+Reset_Handler () at startup_stm32f4xx.s:69				      |	0x00000000 in ?? ()
+69	  movs  r1, #0							      <
+Injection 74  
+Injection 75  
+Injection 76  
+Injection 77  
+Injection 78  
+Injection 79  
+Injection 80  
+Injection 81  
+Injection 82  
+Injection 83  
+Injection 84  
+Injection 85  
+Injection 86  
+Injection 87  
+Injection 88  
+Injection 89  
+Injection 90  
+Injection 91  
+Injection 92  
+Injection 93  
+Injection 94  
+Injection 95  
+Injection 96  
+Injection 97  
+Injection 98  
+Injection 99  
+Injection 100  
+Injection 101  
+Injection 102  
+Injection 103  
+Injection 104  
+Reset_Handler () at startup_stm32f4xx.s:69				      |	charge_binaire.gdb:5: Error in sourced command file:
+69	  movs  r1, #0							      |	Remote communication error.  Target disconnected.: Connexion ré-initialisée p
+Hardware assisted breakpoint 1 at 0x8000ae8: file main.c, line 22.	      <
+									      <
+Breakpoint 1, main () at main.c:22					      <
+22	{								      <
+Hardware assisted breakpoint 2 at 0x8000b8e: file main.c, line 75.	      <
+									      <
+Breakpoint 2, main () at main.c:75					      <
+75		asm("ldr	r1, =4096");				      <
+r0             0x40020c00	1073875968				      <
+r1             0xff	255						      <
+r2             0x64	100						      <
+r3             0xffffffff	4294967295				      <
+r4             0x0	0						      <
+r5             0x0	0						      <
+r6             0x0	0						      <
+r7             0xa5a5a5a5	2779096485				      <
+r8             0x0	0						      <
+r9             0x0	0						      <
+r10            0x0	0						      <
+r11            0x0	0						      <
+r12            0x20000200	536871424				      <
+sp             0x2001fff8	0x2001fff8				      <
+lr             0x8000b8f	134220687				      <
+pc             0x8000b8e	0x8000b8e <main+166>			      <
+xpsr           0x21000000	553648128				      <
+MSP            0x2001fff8	537001976				      <
+PSP            0x0	0						      <
+PRIMASK        0x0	0						      <
+BASEPRI        0x0	0						      <
+FAULTMASK      0x0	0						      <
+CONTROL        0x0	0						      <
+Dump of assembler code for function main:				      <
+   0x08000ae8 <+0>:	push	{r4, lr}				      <
+   0x08000aea <+2>:	movs	r0, #8					      <
+   0x08000aec <+4>:	movs	r1, #1					      <
+   0x08000aee <+6>:	bl	0x80008c4 <RCC_AHB1PeriphClockCmd>	      <
+   0x08000af2 <+10>:	ldr	r3, [pc, #160]	; (0x8000b94 <main+172>)      <
+   0x08000af4 <+12>:	mov.w	r2, #61440	; 0xf000		      <
+   0x08000af8 <+16>:	str	r2, [r3, #0]				      <
+   0x08000afa <+18>:	movs	r2, #1					      <
+   0x08000afc <+20>:	strb	r2, [r3, #4]				      <
+   0x08000afe <+22>:	movs	r4, #0					      <
+   0x08000b00 <+24>:	movs	r2, #3					      <
+   0x08000b02 <+26>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b06 <+30>:	strb	r2, [r3, #5]				      <
+   0x08000b08 <+32>:	mov	r1, r3					      <
+   0x08000b0a <+34>:	strb	r4, [r3, #6]				      <
+   0x08000b0c <+36>:	strb	r4, [r3, #7]				      <
+   0x08000b0e <+38>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b12 <+42>:	bl	0x800049c <GPIO_Init>			      <
+   0x08000b16 <+46>:	mov.w	r3, #508	; 0x1fc			      <
+   0x08000b1a <+50>:	movw	r2, #1308	; 0x51c			      <
+   0x08000b1e <+54>:	movt	r3, #8192	; 0x2000		      <
+   0x08000b22 <+58>:	movt	r2, #8192	; 0x2000		      <
+   0x08000b26 <+62>:	str.w	r4, [r3, #4]!				      <
+   0x08000b2a <+66>:	cmp	r3, r2					      <
+   0x08000b2c <+68>:	bne.n	0x8000b26 <main+62>			      <
+   0x08000b2e <+70>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b32 <+74>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b36 <+78>:	mov.w	r1, #4096	; 0x1000		      <
+   0x08000b3a <+82>:	bl	0x80005b4 <GPIO_SetBits>		      <
+   0x08000b3e <+86>:	movs	r3, #10					      <
+   0x08000b40 <+88>:	mov	r2, r3					      <
+   0x08000b42 <+90>:	subs	r3, #1					      <
+   0x08000b44 <+92>:	cmp	r2, #0					      <
+   0x08000b46 <+94>:	bne.n	0x8000b40 <main+88>			      <
+   0x08000b48 <+96>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b4c <+100>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b50 <+104>:	mov.w	r1, #32768	; 0x8000		      <
+   0x08000b54 <+108>:	bl	0x80005b4 <GPIO_SetBits>		      <
+   0x08000b58 <+112>:	mov.w	r7, #2779096485	; 0xa5a5a5a5		      <
+   0x08000b5c <+116>:	mov.w	r1, #0					      <
+   0x08000b60 <+120>:	mov.w	r2, #0					      <
+   0x08000b64 <+124>:	ldr.w	r12, [pc, #48]	; 0x8000b98		      <
+   0x08000b68 <+128>:	str.w	r2, [r12, r1]				      <
+   0x08000b6c <+132>:	add.w	r2, r2, #1				      <
+   0x08000b70 <+136>:	add.w	r1, r1, #4				      <
+   0x08000b74 <+140>:	str.w	r7, [r12, r1]				      <
+   0x08000b78 <+144>:	add.w	r1, r1, #4				      <
+   0x08000b7c <+148>:	cmp	r2, #100	; 0x64			      <
+   0x08000b7e <+150>:	bne.n	0x8000b68 <main+128>			      <
+   0x08000b80 <+152>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b84 <+156>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b88 <+160>:	movs	r1, #255	; 0xff			      <
+   0x08000b8a <+162>:	bl	0x80005c8 <GPIO_Write>			      <
+=> 0x08000b8e <+166>:	ldr	r1, [pc, #12]	; (0x8000b9c)		      <
+   0x08000b90 <+168>:	b.n	0x8000b2e <main+70>			      <
+   0x08000b92 <+170>:	nop						      <
+   0x08000b94 <+172>:	movs	r4, r4					      <
+   0x08000b96 <+174>:	movs	r0, #0					      <
+End of assembler dump.							      <
+0x20000200:	0x00000000	0xa5a5a5a5	0x00000001	0xa5a5a5a5    <
+0x20000210:	0x00000002	0xa5a5a5a5	0x00000003	0xa5a5a5a5    <
+0x20000220:	0x00000004	0xa5a5a5a5	0x00000005	0xa5a5a5a5    <
+0x20000230:	0x00000006	0xa5a5a5a5	0x00000007	0xa5a5a5a5    <
+0x20000240:	0x00000008	0xa5a5a5a5	0x00000009	0xa5a5a5a5    <
+0x20000250:	0x0000000a	0xa5a5a5a5	0x0000000b	0xa5a5a5a5    <
+0x20000260:	0x0000000c	0xa5a5a5a5	0x0000000d	0xa5a5a5a5    <
+0x20000270:	0x0000000e	0xa5a5a5a5	0x0000000f	0xa5a5a5a5    <
+0x20000280:	0x00000010	0xa5a5a5a5	0x00000011	0xa5a5a5a5    <
+0x20000290:	0x00000012	0xa5a5a5a5	0x00000013	0xa5a5a5a5    <
+0x200002a0:	0x00000014	0xa5a5a5a5	0x00000015	0xa5a5a5a5    <
+0x200002b0:	0x00000016	0xa5a5a5a5	0x00000017	0xa5a5a5a5    <
+0x200002c0:	0x00000018	0xa5a5a5a5	0x00000019	0xa5a5a5a5    <
+0x200002d0:	0x0000001a	0xa5a5a5a5	0x0000001b	0xa5a5a5a5    <
+0x200002e0:	0x0000001c	0xa5a5a5a5	0x0000001d	0xa5a5a5a5    <
+0x200002f0:	0x0000001e	0xa5a5a5a5	0x0000001f	0xa5a5a5a5    <
+0x20000300:	0x00000020	0xa5a5a5a5	0x00000021	0xa5a5a5a5    <
+0x20000310:	0x00000022	0xa5a5a5a5	0x00000023	0xa5a5a5a5    <
+0x20000320:	0x00000024	0xa5a5a5a5	0x00000025	0xa5a5a5a5    <
+0x20000330:	0x00000026	0xa5a5a5a5	0x00000027	0xa5a5a5a5    <
+0x20000340:	0x00000028	0xa5a5a5a5	0x00000029	0xa5a5a5a5    <
+0x20000350:	0x0000002a	0xa5a5a5a5	0x0000002b	0xa5a5a5a5    <
+0x20000360:	0x0000002c	0xa5a5a5a5	0x0000002d	0xa5a5a5a5    <
+0x20000370:	0x0000002e	0xa5a5a5a5	0x0000002f	0xa5a5a5a5    <
+0x20000380:	0x00000030	0xa5a5a5a5	0x00000031	0xa5a5a5a5    <
+0x20000390:	0x00000032	0xa5a5a5a5	0x00000033	0xa5a5a5a5    <
+0x200003a0:	0x00000034	0xa5a5a5a5	0x00000035	0xa5a5a5a5    <
+0x200003b0:	0x00000036	0xa5a5a5a5	0x00000037	0xa5a5a5a5    <
+0x200003c0:	0x00000038	0xa5a5a5a5	0x00000039	0xa5a5a5a5    <
+0x200003d0:	0x0000003a	0xa5a5a5a5	0x0000003b	0xa5a5a5a5    <
+0x200003e0:	0x0000003c	0xa5a5a5a5	0x0000003d	0xa5a5a5a5    <
+0x200003f0:	0x0000003e	0xa5a5a5a5	0x0000003f	0xa5a5a5a5    <
+0x20000400:	0x00000040	0xa5a5a5a5	0x00000041	0xa5a5a5a5    <
+0x20000410:	0x00000042	0xa5a5a5a5	0x00000043	0xa5a5a5a5    <
+0x20000420:	0x00000044	0xa5a5a5a5	0x00000045	0xa5a5a5a5    <
+0x20000430:	0x00000046	0xa5a5a5a5	0x00000047	0xa5a5a5a5    <
+0x20000440:	0x00000048	0xa5a5a5a5	0x00000049	0xa5a5a5a5    <
+0x20000450:	0x0000004a	0xa5a5a5a5	0x0000004b	0xa5a5a5a5    <
+0x20000460:	0x0000004c	0xa5a5a5a5	0x0000004d	0xa5a5a5a5    <
+0x20000470:	0x0000004e	0xa5a5a5a5	0x0000004f	0xa5a5a5a5    <
+0x20000480:	0x00000050	0xa5a5a5a5	0x00000051	0xa5a5a5a5    <
+0x20000490:	0x00000052	0xa5a5a5a5	0x00000053	0xa5a5a5a5    <
+0x200004a0:	0x00000054	0xa5a5a5a5	0x00000055	0xa5a5a5a5    <
+0x200004b0:	0x00000056	0xa5a5a5a5	0x00000057	0xa5a5a5a5    <
+0x200004c0:	0x00000058	0xa5a5a5a5	0x00000059	0xa5a5a5a5    <
+0x200004d0:	0x0000005a	0xa5a5a5a5	0x0000005b	0xa5a5a5a5    <
+0x200004e0:	0x0000005c	0xa5a5a5a5	0x0000005d	0xa5a5a5a5    <
+0x200004f0:	0x0000005e	0xa5a5a5a5	0x0000005f	0xa5a5a5a5    <
+0x20000500:	0x00000060	0xa5a5a5a5	0x00000061	0xa5a5a5a5    <
+0x20000510:	0x00000062	0xa5a5a5a5	0x00000063	0xa5a5a5a5    <
+Reset_Handler () at startup_stm32f4xx.s:69				      |	0x00000000 in ?? ()
+69	  movs  r1, #0							      <
+Injection 105  
+Injection 106  
+Injection 107  
+Injection 108  
+Injection 109  
+Injection 110  
+Injection 111  
+Injection 112  
+Injection 113  
+Injection 114  
+Injection 115  
+Injection 116  
+Injection 117  
+Injection 118  
+Injection 119  
+Injection 120  
+Injection 121  
+Injection 122  
+Injection 123  
+Injection 124  
+Injection 125  
+Injection 126  
+Injection 127  
+Injection 128  
+Injection 129  
+Injection 130  
+Injection 131  
+Injection 132  
+Injection 133  
+Injection 134  
+Injection 135  
+Reset_Handler () at startup_stm32f4xx.s:69				      |	charge_binaire.gdb:5: Error in sourced command file:
+69	  movs  r1, #0							      |	Remote communication error.  Target disconnected.: Connexion ré-initialisée p
+Hardware assisted breakpoint 1 at 0x8000ae8: file main.c, line 22.	      <
+									      <
+Breakpoint 1, main () at main.c:22					      <
+22	{								      <
+Hardware assisted breakpoint 2 at 0x8000b8e: file main.c, line 75.	      <
+									      <
+Breakpoint 2, main () at main.c:75					      <
+75		asm("ldr	r1, =4096");				      <
+r0             0x40020c00	1073875968				      <
+r1             0xff	255						      <
+r2             0x64	100						      <
+r3             0xffffffff	4294967295				      <
+r4             0x0	0						      <
+r5             0x0	0						      <
+r6             0x0	0						      <
+r7             0xa5a5a5a5	2779096485				      <
+r8             0x0	0						      <
+r9             0x0	0						      <
+r10            0x0	0						      <
+r11            0x0	0						      <
+r12            0x20000200	536871424				      <
+sp             0x2001fff8	0x2001fff8				      <
+lr             0x8000b8f	134220687				      <
+pc             0x8000b8e	0x8000b8e <main+166>			      <
+xpsr           0x21000000	553648128				      <
+MSP            0x2001fff8	537001976				      <
+PSP            0x0	0						      <
+PRIMASK        0x0	0						      <
+BASEPRI        0x0	0						      <
+FAULTMASK      0x0	0						      <
+CONTROL        0x0	0						      <
+Dump of assembler code for function main:				      <
+   0x08000ae8 <+0>:	push	{r4, lr}				      <
+   0x08000aea <+2>:	movs	r0, #8					      <
+   0x08000aec <+4>:	movs	r1, #1					      <
+   0x08000aee <+6>:	bl	0x80008c4 <RCC_AHB1PeriphClockCmd>	      <
+   0x08000af2 <+10>:	ldr	r3, [pc, #160]	; (0x8000b94 <main+172>)      <
+   0x08000af4 <+12>:	mov.w	r2, #61440	; 0xf000		      <
+   0x08000af8 <+16>:	str	r2, [r3, #0]				      <
+   0x08000afa <+18>:	movs	r2, #1					      <
+   0x08000afc <+20>:	strb	r2, [r3, #4]				      <
+   0x08000afe <+22>:	movs	r4, #0					      <
+   0x08000b00 <+24>:	movs	r2, #3					      <
+   0x08000b02 <+26>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b06 <+30>:	strb	r2, [r3, #5]				      <
+   0x08000b08 <+32>:	mov	r1, r3					      <
+   0x08000b0a <+34>:	strb	r4, [r3, #6]				      <
+   0x08000b0c <+36>:	strb	r4, [r3, #7]				      <
+   0x08000b0e <+38>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b12 <+42>:	bl	0x800049c <GPIO_Init>			      <
+   0x08000b16 <+46>:	mov.w	r3, #508	; 0x1fc			      <
+   0x08000b1a <+50>:	movw	r2, #1308	; 0x51c			      <
+   0x08000b1e <+54>:	movt	r3, #8192	; 0x2000		      <
+   0x08000b22 <+58>:	movt	r2, #8192	; 0x2000		      <
+   0x08000b26 <+62>:	str.w	r4, [r3, #4]!				      <
+   0x08000b2a <+66>:	cmp	r3, r2					      <
+   0x08000b2c <+68>:	bne.n	0x8000b26 <main+62>			      <
+   0x08000b2e <+70>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b32 <+74>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b36 <+78>:	mov.w	r1, #4096	; 0x1000		      <
+   0x08000b3a <+82>:	bl	0x80005b4 <GPIO_SetBits>		      <
+   0x08000b3e <+86>:	movs	r3, #10					      <
+   0x08000b40 <+88>:	mov	r2, r3					      <
+   0x08000b42 <+90>:	subs	r3, #1					      <
+   0x08000b44 <+92>:	cmp	r2, #0					      <
+   0x08000b46 <+94>:	bne.n	0x8000b40 <main+88>			      <
+   0x08000b48 <+96>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b4c <+100>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b50 <+104>:	mov.w	r1, #32768	; 0x8000		      <
+   0x08000b54 <+108>:	bl	0x80005b4 <GPIO_SetBits>		      <
+   0x08000b58 <+112>:	mov.w	r7, #2779096485	; 0xa5a5a5a5		      <
+   0x08000b5c <+116>:	mov.w	r1, #0					      <
+   0x08000b60 <+120>:	mov.w	r2, #0					      <
+   0x08000b64 <+124>:	ldr.w	r12, [pc, #48]	; 0x8000b98		      <
+   0x08000b68 <+128>:	str.w	r2, [r12, r1]				      <
+   0x08000b6c <+132>:	add.w	r2, r2, #1				      <
+   0x08000b70 <+136>:	add.w	r1, r1, #4				      <
+   0x08000b74 <+140>:	str.w	r7, [r12, r1]				      <
+   0x08000b78 <+144>:	add.w	r1, r1, #4				      <
+   0x08000b7c <+148>:	cmp	r2, #100	; 0x64			      <
+   0x08000b7e <+150>:	bne.n	0x8000b68 <main+128>			      <
+   0x08000b80 <+152>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b84 <+156>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b88 <+160>:	movs	r1, #255	; 0xff			      <
+   0x08000b8a <+162>:	bl	0x80005c8 <GPIO_Write>			      <
+=> 0x08000b8e <+166>:	ldr	r1, [pc, #12]	; (0x8000b9c)		      <
+   0x08000b90 <+168>:	b.n	0x8000b2e <main+70>			      <
+   0x08000b92 <+170>:	nop						      <
+   0x08000b94 <+172>:	movs	r4, r4					      <
+   0x08000b96 <+174>:	movs	r0, #0					      <
+End of assembler dump.							      <
+0x20000200:	0x00000000	0xa5a5a5a5	0x00000001	0xa5a5a5a5    <
+0x20000210:	0x00000002	0xa5a5a5a5	0x00000003	0xa5a5a5a5    <
+0x20000220:	0x00000004	0xa5a5a5a5	0x00000005	0xa5a5a5a5    <
+0x20000230:	0x00000006	0xa5a5a5a5	0x00000007	0xa5a5a5a5    <
+0x20000240:	0x00000008	0xa5a5a5a5	0x00000009	0xa5a5a5a5    <
+0x20000250:	0x0000000a	0xa5a5a5a5	0x0000000b	0xa5a5a5a5    <
+0x20000260:	0x0000000c	0xa5a5a5a5	0x0000000d	0xa5a5a5a5    <
+0x20000270:	0x0000000e	0xa5a5a5a5	0x0000000f	0xa5a5a5a5    <
+0x20000280:	0x00000010	0xa5a5a5a5	0x00000011	0xa5a5a5a5    <
+0x20000290:	0x00000012	0xa5a5a5a5	0x00000013	0xa5a5a5a5    <
+0x200002a0:	0x00000014	0xa5a5a5a5	0x00000015	0xa5a5a5a5    <
+0x200002b0:	0x00000016	0xa5a5a5a5	0x00000017	0xa5a5a5a5    <
+0x200002c0:	0x00000018	0xa5a5a5a5	0x00000019	0xa5a5a5a5    <
+0x200002d0:	0x0000001a	0xa5a5a5a5	0x0000001b	0xa5a5a5a5    <
+0x200002e0:	0x0000001c	0xa5a5a5a5	0x0000001d	0xa5a5a5a5    <
+0x200002f0:	0x0000001e	0xa5a5a5a5	0x0000001f	0xa5a5a5a5    <
+0x20000300:	0x00000020	0xa5a5a5a5	0x00000021	0xa5a5a5a5    <
+0x20000310:	0x00000022	0xa5a5a5a5	0x00000023	0xa5a5a5a5    <
+0x20000320:	0x00000024	0xa5a5a5a5	0x00000025	0xa5a5a5a5    <
+0x20000330:	0x00000026	0xa5a5a5a5	0x00000027	0xa5a5a5a5    <
+0x20000340:	0x00000028	0xa5a5a5a5	0x00000029	0xa5a5a5a5    <
+0x20000350:	0x0000002a	0xa5a5a5a5	0x0000002b	0xa5a5a5a5    <
+0x20000360:	0x0000002c	0xa5a5a5a5	0x0000002d	0xa5a5a5a5    <
+0x20000370:	0x0000002e	0xa5a5a5a5	0x0000002f	0xa5a5a5a5    <
+0x20000380:	0x00000030	0xa5a5a5a5	0x00000031	0xa5a5a5a5    <
+0x20000390:	0x00000032	0xa5a5a5a5	0x00000033	0xa5a5a5a5    <
+0x200003a0:	0x00000034	0xa5a5a5a5	0x00000035	0xa5a5a5a5    <
+0x200003b0:	0x00000036	0xa5a5a5a5	0x00000037	0xa5a5a5a5    <
+0x200003c0:	0x00000038	0xa5a5a5a5	0x00000039	0xa5a5a5a5    <
+0x200003d0:	0x0000003a	0xa5a5a5a5	0x0000003b	0xa5a5a5a5    <
+0x200003e0:	0x0000003c	0xa5a5a5a5	0x0000003d	0xa5a5a5a5    <
+0x200003f0:	0x0000003e	0xa5a5a5a5	0x0000003f	0xa5a5a5a5    <
+0x20000400:	0x00000040	0xa5a5a5a5	0x00000041	0xa5a5a5a5    <
+0x20000410:	0x00000042	0xa5a5a5a5	0x00000043	0xa5a5a5a5    <
+0x20000420:	0x00000044	0xa5a5a5a5	0x00000045	0xa5a5a5a5    <
+0x20000430:	0x00000046	0xa5a5a5a5	0x00000047	0xa5a5a5a5    <
+0x20000440:	0x00000048	0xa5a5a5a5	0x00000049	0xa5a5a5a5    <
+0x20000450:	0x0000004a	0xa5a5a5a5	0x0000004b	0xa5a5a5a5    <
+0x20000460:	0x0000004c	0xa5a5a5a5	0x0000004d	0xa5a5a5a5    <
+0x20000470:	0x0000004e	0xa5a5a5a5	0x0000004f	0xa5a5a5a5    <
+0x20000480:	0x00000050	0xa5a5a5a5	0x00000051	0xa5a5a5a5    <
+0x20000490:	0x00000052	0xa5a5a5a5	0x00000053	0xa5a5a5a5    <
+0x200004a0:	0x00000054	0xa5a5a5a5	0x00000055	0xa5a5a5a5    <
+0x200004b0:	0x00000056	0xa5a5a5a5	0x00000057	0xa5a5a5a5    <
+0x200004c0:	0x00000058	0xa5a5a5a5	0x00000059	0xa5a5a5a5    <
+0x200004d0:	0x0000005a	0xa5a5a5a5	0x0000005b	0xa5a5a5a5    <
+0x200004e0:	0x0000005c	0xa5a5a5a5	0x0000005d	0xa5a5a5a5    <
+0x200004f0:	0x0000005e	0xa5a5a5a5	0x0000005f	0xa5a5a5a5    <
+0x20000500:	0x00000060	0xa5a5a5a5	0x00000061	0xa5a5a5a5    <
+0x20000510:	0x00000062	0xa5a5a5a5	0x00000063	0xa5a5a5a5    <
+Reset_Handler () at startup_stm32f4xx.s:69				      |	0x00000000 in ?? ()
+69	  movs  r1, #0							      <
+Injection 136  
+Injection 137  
+Injection 138  
+Injection 139  
+Injection 140  
+Injection 141  
+Injection 142  
+Injection 143  
+Injection 144  
+Injection 145  
+Injection 146  
+Injection 147  
+Injection 148  
+Injection 149  
+Injection 150  
+Injection 151  
+Injection 152  
+Injection 153  
+Injection 154  
+Injection 155  
+Injection 156  
+Injection 157  
+Injection 158  
+Injection 159  
+Injection 160  
+Injection 161  
+Injection 162  
+Injection 163  
+Injection 164  
+Injection 165  
+Injection 166  
+Reset_Handler () at startup_stm32f4xx.s:69				      |	charge_binaire.gdb:5: Error in sourced command file:
+69	  movs  r1, #0							      |	Remote communication error.  Target disconnected.: Connexion ré-initialisée p
+Hardware assisted breakpoint 1 at 0x8000ae8: file main.c, line 22.	      <
+									      <
+Breakpoint 1, main () at main.c:22					      <
+22	{								      <
+Hardware assisted breakpoint 2 at 0x8000b8e: file main.c, line 75.	      <
+									      <
+Breakpoint 2, main () at main.c:75					      <
+75		asm("ldr	r1, =4096");				      <
+r0             0x40020c00	1073875968				      <
+r1             0xff	255						      <
+r2             0x64	100						      <
+r3             0xffffffff	4294967295				      <
+r4             0x0	0						      <
+r5             0x0	0						      <
+r6             0x0	0						      <
+r7             0xa5a5a5a5	2779096485				      <
+r8             0x0	0						      <
+r9             0x0	0						      <
+r10            0x0	0						      <
+r11            0x0	0						      <
+r12            0x20000200	536871424				      <
+sp             0x2001fff8	0x2001fff8				      <
+lr             0x8000b8f	134220687				      <
+pc             0x8000b8e	0x8000b8e <main+166>			      <
+xpsr           0x21000000	553648128				      <
+MSP            0x2001fff8	537001976				      <
+PSP            0x0	0						      <
+PRIMASK        0x0	0						      <
+BASEPRI        0x0	0						      <
+FAULTMASK      0x0	0						      <
+CONTROL        0x0	0						      <
+Dump of assembler code for function main:				      <
+   0x08000ae8 <+0>:	push	{r4, lr}				      <
+   0x08000aea <+2>:	movs	r0, #8					      <
+   0x08000aec <+4>:	movs	r1, #1					      <
+   0x08000aee <+6>:	bl	0x80008c4 <RCC_AHB1PeriphClockCmd>	      <
+   0x08000af2 <+10>:	ldr	r3, [pc, #160]	; (0x8000b94 <main+172>)      <
+   0x08000af4 <+12>:	mov.w	r2, #61440	; 0xf000		      <
+   0x08000af8 <+16>:	str	r2, [r3, #0]				      <
+   0x08000afa <+18>:	movs	r2, #1					      <
+   0x08000afc <+20>:	strb	r2, [r3, #4]				      <
+   0x08000afe <+22>:	movs	r4, #0					      <
+   0x08000b00 <+24>:	movs	r2, #3					      <
+   0x08000b02 <+26>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b06 <+30>:	strb	r2, [r3, #5]				      <
+   0x08000b08 <+32>:	mov	r1, r3					      <
+   0x08000b0a <+34>:	strb	r4, [r3, #6]				      <
+   0x08000b0c <+36>:	strb	r4, [r3, #7]				      <
+   0x08000b0e <+38>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b12 <+42>:	bl	0x800049c <GPIO_Init>			      <
+   0x08000b16 <+46>:	mov.w	r3, #508	; 0x1fc			      <
+   0x08000b1a <+50>:	movw	r2, #1308	; 0x51c			      <
+   0x08000b1e <+54>:	movt	r3, #8192	; 0x2000		      <
+   0x08000b22 <+58>:	movt	r2, #8192	; 0x2000		      <
+   0x08000b26 <+62>:	str.w	r4, [r3, #4]!				      <
+   0x08000b2a <+66>:	cmp	r3, r2					      <
+   0x08000b2c <+68>:	bne.n	0x8000b26 <main+62>			      <
+   0x08000b2e <+70>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b32 <+74>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b36 <+78>:	mov.w	r1, #4096	; 0x1000		      <
+   0x08000b3a <+82>:	bl	0x80005b4 <GPIO_SetBits>		      <
+   0x08000b3e <+86>:	movs	r3, #10					      <
+   0x08000b40 <+88>:	mov	r2, r3					      <
+   0x08000b42 <+90>:	subs	r3, #1					      <
+   0x08000b44 <+92>:	cmp	r2, #0					      <
+   0x08000b46 <+94>:	bne.n	0x8000b40 <main+88>			      <
+   0x08000b48 <+96>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b4c <+100>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b50 <+104>:	mov.w	r1, #32768	; 0x8000		      <
+   0x08000b54 <+108>:	bl	0x80005b4 <GPIO_SetBits>		      <
+   0x08000b58 <+112>:	mov.w	r7, #2779096485	; 0xa5a5a5a5		      <
+   0x08000b5c <+116>:	mov.w	r1, #0					      <
+   0x08000b60 <+120>:	mov.w	r2, #0					      <
+   0x08000b64 <+124>:	ldr.w	r12, [pc, #48]	; 0x8000b98		      <
+   0x08000b68 <+128>:	str.w	r2, [r12, r1]				      <
+   0x08000b6c <+132>:	add.w	r2, r2, #1				      <
+   0x08000b70 <+136>:	add.w	r1, r1, #4				      <
+   0x08000b74 <+140>:	str.w	r7, [r12, r1]				      <
+   0x08000b78 <+144>:	add.w	r1, r1, #4				      <
+   0x08000b7c <+148>:	cmp	r2, #100	; 0x64			      <
+   0x08000b7e <+150>:	bne.n	0x8000b68 <main+128>			      <
+   0x08000b80 <+152>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b84 <+156>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b88 <+160>:	movs	r1, #255	; 0xff			      <
+   0x08000b8a <+162>:	bl	0x80005c8 <GPIO_Write>			      <
+=> 0x08000b8e <+166>:	ldr	r1, [pc, #12]	; (0x8000b9c)		      <
+   0x08000b90 <+168>:	b.n	0x8000b2e <main+70>			      <
+   0x08000b92 <+170>:	nop						      <
+   0x08000b94 <+172>:	movs	r4, r4					      <
+   0x08000b96 <+174>:	movs	r0, #0					      <
+End of assembler dump.							      <
+0x20000200:	0x00000000	0xa5a5a5a5	0x00000001	0xa5a5a5a5    <
+0x20000210:	0x00000002	0xa5a5a5a5	0x00000003	0xa5a5a5a5    <
+0x20000220:	0x00000004	0xa5a5a5a5	0x00000005	0xa5a5a5a5    <
+0x20000230:	0x00000006	0xa5a5a5a5	0x00000007	0xa5a5a5a5    <
+0x20000240:	0x00000008	0xa5a5a5a5	0x00000009	0xa5a5a5a5    <
+0x20000250:	0x0000000a	0xa5a5a5a5	0x0000000b	0xa5a5a5a5    <
+0x20000260:	0x0000000c	0xa5a5a5a5	0x0000000d	0xa5a5a5a5    <
+0x20000270:	0x0000000e	0xa5a5a5a5	0x0000000f	0xa5a5a5a5    <
+0x20000280:	0x00000010	0xa5a5a5a5	0x00000011	0xa5a5a5a5    <
+0x20000290:	0x00000012	0xa5a5a5a5	0x00000013	0xa5a5a5a5    <
+0x200002a0:	0x00000014	0xa5a5a5a5	0x00000015	0xa5a5a5a5    <
+0x200002b0:	0x00000016	0xa5a5a5a5	0x00000017	0xa5a5a5a5    <
+0x200002c0:	0x00000018	0xa5a5a5a5	0x00000019	0xa5a5a5a5    <
+0x200002d0:	0x0000001a	0xa5a5a5a5	0x0000001b	0xa5a5a5a5    <
+0x200002e0:	0x0000001c	0xa5a5a5a5	0x0000001d	0xa5a5a5a5    <
+0x200002f0:	0x0000001e	0xa5a5a5a5	0x0000001f	0xa5a5a5a5    <
+0x20000300:	0x00000020	0xa5a5a5a5	0x00000021	0xa5a5a5a5    <
+0x20000310:	0x00000022	0xa5a5a5a5	0x00000023	0xa5a5a5a5    <
+0x20000320:	0x00000024	0xa5a5a5a5	0x00000025	0xa5a5a5a5    <
+0x20000330:	0x00000026	0xa5a5a5a5	0x00000027	0xa5a5a5a5    <
+0x20000340:	0x00000028	0xa5a5a5a5	0x00000029	0xa5a5a5a5    <
+0x20000350:	0x0000002a	0xa5a5a5a5	0x0000002b	0xa5a5a5a5    <
+0x20000360:	0x0000002c	0xa5a5a5a5	0x0000002d	0xa5a5a5a5    <
+0x20000370:	0x0000002e	0xa5a5a5a5	0x0000002f	0xa5a5a5a5    <
+0x20000380:	0x00000030	0xa5a5a5a5	0x00000031	0xa5a5a5a5    <
+0x20000390:	0x00000032	0xa5a5a5a5	0x00000033	0xa5a5a5a5    <
+0x200003a0:	0x00000034	0xa5a5a5a5	0x00000035	0xa5a5a5a5    <
+0x200003b0:	0x00000036	0xa5a5a5a5	0x00000037	0xa5a5a5a5    <
+0x200003c0:	0x00000038	0xa5a5a5a5	0x00000039	0xa5a5a5a5    <
+0x200003d0:	0x0000003a	0xa5a5a5a5	0x0000003b	0xa5a5a5a5    <
+0x200003e0:	0x0000003c	0xa5a5a5a5	0x0000003d	0xa5a5a5a5    <
+0x200003f0:	0x0000003e	0xa5a5a5a5	0x0000003f	0xa5a5a5a5    <
+0x20000400:	0x00000040	0xa5a5a5a5	0x00000041	0xa5a5a5a5    <
+0x20000410:	0x00000042	0xa5a5a5a5	0x00000043	0xa5a5a5a5    <
+0x20000420:	0x00000044	0xa5a5a5a5	0x00000045	0xa5a5a5a5    <
+0x20000430:	0x00000046	0xa5a5a5a5	0x00000047	0xa5a5a5a5    <
+0x20000440:	0x00000048	0xa5a5a5a5	0x00000049	0xa5a5a5a5    <
+0x20000450:	0x0000004a	0xa5a5a5a5	0x0000004b	0xa5a5a5a5    <
+0x20000460:	0x0000004c	0xa5a5a5a5	0x0000004d	0xa5a5a5a5    <
+0x20000470:	0x0000004e	0xa5a5a5a5	0x0000004f	0xa5a5a5a5    <
+0x20000480:	0x00000050	0xa5a5a5a5	0x00000051	0xa5a5a5a5    <
+0x20000490:	0x00000052	0xa5a5a5a5	0x00000053	0xa5a5a5a5    <
+0x200004a0:	0x00000054	0xa5a5a5a5	0x00000055	0xa5a5a5a5    <
+0x200004b0:	0x00000056	0xa5a5a5a5	0x00000057	0xa5a5a5a5    <
+0x200004c0:	0x00000058	0xa5a5a5a5	0x00000059	0xa5a5a5a5    <
+0x200004d0:	0x0000005a	0xa5a5a5a5	0x0000005b	0xa5a5a5a5    <
+0x200004e0:	0x0000005c	0xa5a5a5a5	0x0000005d	0xa5a5a5a5    <
+0x200004f0:	0x0000005e	0xa5a5a5a5	0x0000005f	0xa5a5a5a5    <
+0x20000500:	0x00000060	0xa5a5a5a5	0x00000061	0xa5a5a5a5    <
+0x20000510:	0x00000062	0xa5a5a5a5	0x00000063	0xa5a5a5a5    <
+Reset_Handler () at startup_stm32f4xx.s:69				      |	0x00000000 in ?? ()
+69	  movs  r1, #0							      <
+Injection 167  
+Injection 168  
+Injection 169  
+Injection 170  
+Injection 171  
+Injection 172  
+Injection 173  
+Injection 174  
+Injection 175  
+Injection 176  
+Injection 177  
+Injection 178  
+Injection 179  
+Injection 180  
+Injection 181  
+Injection 182  
+Injection 183  
+Injection 184  
+Injection 185  
+Injection 186  
+Injection 187  
+Injection 188  
+Injection 189  
+Injection 190  
+Injection 191  
+Injection 192  
+Injection 193  
+Injection 194  
+Injection 195  
+Injection 196  
+Injection 197  
+Reset_Handler () at startup_stm32f4xx.s:69				      |	charge_binaire.gdb:5: Error in sourced command file:
+69	  movs  r1, #0							      |	Remote communication error.  Target disconnected.: Connexion ré-initialisée p
+Hardware assisted breakpoint 1 at 0x8000ae8: file main.c, line 22.	      <
+									      <
+Breakpoint 1, main () at main.c:22					      <
+22	{								      <
+Hardware assisted breakpoint 2 at 0x8000b8e: file main.c, line 75.	      <
+									      <
+Breakpoint 2, main () at main.c:75					      <
+75		asm("ldr	r1, =4096");				      <
+r0             0x40020c00	1073875968				      <
+r1             0xff	255						      <
+r2             0x64	100						      <
+r3             0xffffffff	4294967295				      <
+r4             0x0	0						      <
+r5             0x0	0						      <
+r6             0x0	0						      <
+r7             0xa5a5a5a5	2779096485				      <
+r8             0x0	0						      <
+r9             0x0	0						      <
+r10            0x0	0						      <
+r11            0x0	0						      <
+r12            0x20000200	536871424				      <
+sp             0x2001fff8	0x2001fff8				      <
+lr             0x8000b8f	134220687				      <
+pc             0x8000b8e	0x8000b8e <main+166>			      <
+xpsr           0x21000000	553648128				      <
+MSP            0x2001fff8	537001976				      <
+PSP            0x0	0						      <
+PRIMASK        0x0	0						      <
+BASEPRI        0x0	0						      <
+FAULTMASK      0x0	0						      <
+CONTROL        0x0	0						      <
+Dump of assembler code for function main:				      <
+   0x08000ae8 <+0>:	push	{r4, lr}				      <
+   0x08000aea <+2>:	movs	r0, #8					      <
+   0x08000aec <+4>:	movs	r1, #1					      <
+   0x08000aee <+6>:	bl	0x80008c4 <RCC_AHB1PeriphClockCmd>	      <
+   0x08000af2 <+10>:	ldr	r3, [pc, #160]	; (0x8000b94 <main+172>)      <
+   0x08000af4 <+12>:	mov.w	r2, #61440	; 0xf000		      <
+   0x08000af8 <+16>:	str	r2, [r3, #0]				      <
+   0x08000afa <+18>:	movs	r2, #1					      <
+   0x08000afc <+20>:	strb	r2, [r3, #4]				      <
+   0x08000afe <+22>:	movs	r4, #0					      <
+   0x08000b00 <+24>:	movs	r2, #3					      <
+   0x08000b02 <+26>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b06 <+30>:	strb	r2, [r3, #5]				      <
+   0x08000b08 <+32>:	mov	r1, r3					      <
+   0x08000b0a <+34>:	strb	r4, [r3, #6]				      <
+   0x08000b0c <+36>:	strb	r4, [r3, #7]				      <
+   0x08000b0e <+38>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b12 <+42>:	bl	0x800049c <GPIO_Init>			      <
+   0x08000b16 <+46>:	mov.w	r3, #508	; 0x1fc			      <
+   0x08000b1a <+50>:	movw	r2, #1308	; 0x51c			      <
+   0x08000b1e <+54>:	movt	r3, #8192	; 0x2000		      <
+   0x08000b22 <+58>:	movt	r2, #8192	; 0x2000		      <
+   0x08000b26 <+62>:	str.w	r4, [r3, #4]!				      <
+   0x08000b2a <+66>:	cmp	r3, r2					      <
+   0x08000b2c <+68>:	bne.n	0x8000b26 <main+62>			      <
+   0x08000b2e <+70>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b32 <+74>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b36 <+78>:	mov.w	r1, #4096	; 0x1000		      <
+   0x08000b3a <+82>:	bl	0x80005b4 <GPIO_SetBits>		      <
+   0x08000b3e <+86>:	movs	r3, #10					      <
+   0x08000b40 <+88>:	mov	r2, r3					      <
+   0x08000b42 <+90>:	subs	r3, #1					      <
+   0x08000b44 <+92>:	cmp	r2, #0					      <
+   0x08000b46 <+94>:	bne.n	0x8000b40 <main+88>			      <
+   0x08000b48 <+96>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b4c <+100>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b50 <+104>:	mov.w	r1, #32768	; 0x8000		      <
+   0x08000b54 <+108>:	bl	0x80005b4 <GPIO_SetBits>		      <
+   0x08000b58 <+112>:	mov.w	r7, #2779096485	; 0xa5a5a5a5		      <
+   0x08000b5c <+116>:	mov.w	r1, #0					      <
+   0x08000b60 <+120>:	mov.w	r2, #0					      <
+   0x08000b64 <+124>:	ldr.w	r12, [pc, #48]	; 0x8000b98		      <
+   0x08000b68 <+128>:	str.w	r2, [r12, r1]				      <
+   0x08000b6c <+132>:	add.w	r2, r2, #1				      <
+   0x08000b70 <+136>:	add.w	r1, r1, #4				      <
+   0x08000b74 <+140>:	str.w	r7, [r12, r1]				      <
+   0x08000b78 <+144>:	add.w	r1, r1, #4				      <
+   0x08000b7c <+148>:	cmp	r2, #100	; 0x64			      <
+   0x08000b7e <+150>:	bne.n	0x8000b68 <main+128>			      <
+   0x08000b80 <+152>:	mov.w	r0, #3072	; 0xc00			      <
+   0x08000b84 <+156>:	movt	r0, #16386	; 0x4002		      <
+   0x08000b88 <+160>:	movs	r1, #255	; 0xff			      <
+   0x08000b8a <+162>:	bl	0x80005c8 <GPIO_Write>			      <
+=> 0x08000b8e <+166>:	ldr	r1, [pc, #12]	; (0x8000b9c)		      <
+   0x08000b90 <+168>:	b.n	0x8000b2e <main+70>			      <
+   0x08000b92 <+170>:	nop						      <
+   0x08000b94 <+172>:	movs	r4, r4					      <
+   0x08000b96 <+174>:	movs	r0, #0					      <
+End of assembler dump.							      <
+0x20000200:	0x00000000	0xa5a5a5a5	0x00000001	0xa5a5a5a5    <
+0x20000210:	0x00000002	0xa5a5a5a5	0x00000003	0xa5a5a5a5    <
+0x20000220:	0x00000004	0xa5a5a5a5	0x00000005	0xa5a5a5a5    <
+0x20000230:	0x00000006	0xa5a5a5a5	0x00000007	0xa5a5a5a5    <
+0x20000240:	0x00000008	0xa5a5a5a5	0x00000009	0xa5a5a5a5    <
+0x20000250:	0x0000000a	0xa5a5a5a5	0x0000000b	0xa5a5a5a5    <
+0x20000260:	0x0000000c	0xa5a5a5a5	0x0000000d	0xa5a5a5a5    <
+0x20000270:	0x0000000e	0xa5a5a5a5	0x0000000f	0xa5a5a5a5    <
+0x20000280:	0x00000010	0xa5a5a5a5	0x00000011	0xa5a5a5a5    <
+0x20000290:	0x00000012	0xa5a5a5a5	0x00000013	0xa5a5a5a5    <
+0x200002a0:	0x00000014	0xa5a5a5a5	0x00000015	0xa5a5a5a5    <
+0x200002b0:	0x00000016	0xa5a5a5a5	0x00000017	0xa5a5a5a5    <
+0x200002c0:	0x00000018	0xa5a5a5a5	0x00000019	0xa5a5a5a5    <
+0x200002d0:	0x0000001a	0xa5a5a5a5	0x0000001b	0xa5a5a5a5    <
+0x200002e0:	0x0000001c	0xa5a5a5a5	0x0000001d	0xa5a5a5a5    <
+0x200002f0:	0x0000001e	0xa5a5a5a5	0x0000001f	0xa5a5a5a5    <
+0x20000300:	0x00000020	0xa5a5a5a5	0x00000021	0xa5a5a5a5    <
+0x20000310:	0x00000022	0xa5a5a5a5	0x00000023	0xa5a5a5a5    <
+0x20000320:	0x00000024	0xa5a5a5a5	0x00000025	0xa5a5a5a5    <
+0x20000330:	0x00000026	0xa5a5a5a5	0x00000027	0xa5a5a5a5    <
+0x20000340:	0x00000028	0xa5a5a5a5	0x00000029	0xa5a5a5a5    <
+0x20000350:	0x0000002a	0xa5a5a5a5	0x0000002b	0xa5a5a5a5    <
+0x20000360:	0x0000002c	0xa5a5a5a5	0x0000002d	0xa5a5a5a5    <
+0x20000370:	0x0000002e	0xa5a5a5a5	0x0000002f	0xa5a5a5a5    <
+0x20000380:	0x00000030	0xa5a5a5a5	0x00000031	0xa5a5a5a5    <
+0x20000390:	0x00000032	0xa5a5a5a5	0x00000033	0xa5a5a5a5    <
+0x200003a0:	0x00000034	0xa5a5a5a5	0x00000035	0xa5a5a5a5    <
+0x200003b0:	0x00000036	0xa5a5a5a5	0x00000037	0xa5a5a5a5    <
+0x200003c0:	0x00000038	0xa5a5a5a5	0x00000039	0xa5a5a5a5    <
+0x200003d0:	0x0000003a	0xa5a5a5a5	0x0000003b	0xa5a5a5a5    <
+0x200003e0:	0x0000003c	0xa5a5a5a5	0x0000003d	0xa5a5a5a5    <
+0x200003f0:	0x0000003e	0xa5a5a5a5	0x0000003f	0xa5a5a5a5    <
+0x20000400:	0x00000040	0xa5a5a5a5	0x00000041	0xa5a5a5a5    <
+0x20000410:	0x00000042	0xa5a5a5a5	0x00000043	0xa5a5a5a5    <
+0x20000420:	0x00000044	0xa5a5a5a5	0x00000045	0xa5a5a5a5    <
+0x20000430:	0x00000046	0xa5a5a5a5	0x00000047	0xa5a5a5a5    <
+0x20000440:	0x00000048	0xa5a5a5a5	0x00000049	0xa5a5a5a5    <
+0x20000450:	0x0000004a	0xa5a5a5a5	0x0000004b	0xa5a5a5a5    <
+0x20000460:	0x0000004c	0xa5a5a5a5	0x0000004d	0xa5a5a5a5    <
+0x20000470:	0x0000004e	0xa5a5a5a5	0x0000004f	0xa5a5a5a5    <
+0x20000480:	0x00000050	0xa5a5a5a5	0x00000051	0xa5a5a5a5    <
+0x20000490:	0x00000052	0xa5a5a5a5	0x00000053	0xa5a5a5a5    <
+0x200004a0:	0x00000054	0xa5a5a5a5	0x00000055	0xa5a5a5a5    <
+0x200004b0:	0x00000056	0xa5a5a5a5	0x00000057	0xa5a5a5a5    <
+0x200004c0:	0x00000058	0xa5a5a5a5	0x00000059	0xa5a5a5a5    <
+0x200004d0:	0x0000005a	0xa5a5a5a5	0x0000005b	0xa5a5a5a5    <
+0x200004e0:	0x0000005c	0xa5a5a5a5	0x0000005d	0xa5a5a5a5    <
+0x200004f0:	0x0000005e	0xa5a5a5a5	0x0000005f	0xa5a5a5a5    <
+0x20000500:	0x00000060	0xa5a5a5a5	0x00000061	0xa5a5a5a5    <
+0x20000510:	0x00000062	0xa5a5a5a5	0x00000063	0xa5a5a5a5    <
+Reset_Handler () at startup_stm32f4xx.s:69				      |	0x00000000 in ?? ()
+69	  movs  r1, #0							      <
+Injection 198  
+Injection 199  
+0.000000  

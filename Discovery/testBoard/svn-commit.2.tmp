@@ -1,0 +1,16 @@
+
+--Cette ligne, et les suivantes ci-dessous, seront ignorées--
+
+M    emi_cible_stm32f4/reset
+M    emi_cible_stm32f4/Makefile
+M    emi_cible_stm32f4/configure_generate_reference.pl
+M    emi_cible_stm32f4/output1.ref
+M    emi_cible_stm32f4/Inject_minimal.pl
+M    emi_cible_stm32f4/main.c
+M    emi_cible_stm32f4/poweron.jlk
+M    emi_cible_stm32f4/build/stm32f4_usb_cdc_mini_ecsm.hex
+M    emi_cible_stm32f4/build/stm32f4_usb_cdc_mini_ecsm.elf
+M    emi_cible_stm32f4/build/stm32f4_usb_cdc_mini_ecsm.bin
+M    emi_cible_stm32f4/test
+M    emi_cible_stm32f4/reference_campagne.gdb
+M    emi_cible_stm32f4/reference_analyse.gdb

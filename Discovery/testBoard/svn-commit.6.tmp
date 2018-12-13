@@ -1,0 +1,11 @@
+
+--Cette ligne, et les suivantes ci-dessous, seront ignorées--
+
+M    emi_cible_stm32f4/Inject_minimal.pl
+M    emi_cible_stm32f4/reference_campagne.gdb
+M    emi_cible_stm32f4/build/stm32f4_usb_cdc_mini_ecsm.hex
+M    emi_cible_stm32f4/build/stm32f4_usb_cdc_mini_ecsm.elf
+M    emi_cible_stm32f4/build/stm32f4_usb_cdc_mini_ecsm.bin
+M    emi_cible_stm32f4/test
+A    emi_cible_stm32f4/LOG_ATTACK_10_2015-05-12_22-00
+M    emi_cible_stm32f4/main.c

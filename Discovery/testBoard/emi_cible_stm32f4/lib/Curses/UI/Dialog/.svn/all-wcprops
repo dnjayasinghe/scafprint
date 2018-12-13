@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/trusted_computing/!svn/ver/21463/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/emi_cible_stm32f4/lib/Curses/UI/Dialog
+END
+Question.pm
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/trusted_computing/!svn/ver/21463/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/emi_cible_stm32f4/lib/Curses/UI/Dialog/Question.pm
+END
+Calendar.pm
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/trusted_computing/!svn/ver/21463/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/emi_cible_stm32f4/lib/Curses/UI/Dialog/Calendar.pm
+END
+Error.pm
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/trusted_computing/!svn/ver/21463/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/emi_cible_stm32f4/lib/Curses/UI/Dialog/Error.pm
+END
+Basic.pm
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/trusted_computing/!svn/ver/21463/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/emi_cible_stm32f4/lib/Curses/UI/Dialog/Basic.pm
+END
+Dirbrowser.pm
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/trusted_computing/!svn/ver/21463/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/emi_cible_stm32f4/lib/Curses/UI/Dialog/Dirbrowser.pm
+END
+Filebrowser.pm
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/trusted_computing/!svn/ver/21463/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/emi_cible_stm32f4/lib/Curses/UI/Dialog/Filebrowser.pm
+END
+Status.pm
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/trusted_computing/!svn/ver/21463/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/emi_cible_stm32f4/lib/Curses/UI/Dialog/Status.pm
+END
+Progress.pm
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/trusted_computing/!svn/ver/21463/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/emi_cible_stm32f4/lib/Curses/UI/Dialog/Progress.pm
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_OTG/src
+END
+usb_hcd.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_OTG/src/usb_hcd.c
+END
+usb_bsp_template.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_OTG/src/usb_bsp_template.c
+END
+usb_dcd_int.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_OTG/src/usb_dcd_int.c
+END
+usb_core.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_OTG/src/usb_core.c
+END
+usb_hcd_int.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_OTG/src/usb_hcd_int.c
+END
+usb_otg.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_OTG/src/usb_otg.c
+END
+usb_dcd.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_OTG/src/usb_dcd.c
+END

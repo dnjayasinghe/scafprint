@@ -1,0 +1,30 @@
+  2 #set verbose off
+  3 set pagination off
+  4 set confirm off         
+  5 set logging on
+ 16     set {int}0x20001a44=0x61356334
+ 17     set {int}0x20001a40=0x63343934
+ 18     set {int}0x20001a3c=0x33626133
+ 19     set {int}0x20001a38=0x62653364
+ 20     set {int}0x20001a34=0x62313030
+ 21     set {int}0x20001a30=0x36366662
+ 22     set {int}0x20001a2c=0x65643835
+ 23     set {int}0x20001a28=0x35623263
+ 24     set {int}0x20001a24=0x61303332
+ 25     set {int}0x20001a20=0x33353163
+ 26     set {int}0x20001a1c=0x30633265
+ 27     set {int}0x20001a18=0x35396364
+ 31 #   set {int}0x20001A0C=0x30
+ 32 #   set {int}0x20001A08=0x30
+ 33 #   set {int}0x20001A04=0x30
+ 34 #   set {int}0x20001A00=0x30
+ 35 #   set {int}0x200019fc=0x30
+ 36 #   set {int}0x200019f8=0x30
+ 37 #   set {int}0x200019f4=0x30
+ 38 #   set {int}0x200019f0=0x30
+ 39 #   set {int}0x200019eC=0x30
+ 40 #   set {int}0x200019e8=0x30
+ 41 #   set {int}0x200019e4=0x30
+ 42 #   set {int}0x200019e0=0x30
+ 70 #set logging off
+

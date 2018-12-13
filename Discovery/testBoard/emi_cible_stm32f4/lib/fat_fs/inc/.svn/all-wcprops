@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/fat_fs/inc
+END
+diskio.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/fat_fs/inc/diskio.h
+END
+fattime.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/fat_fs/inc/fattime.h
+END
+ff.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/fat_fs/inc/ff.h
+END
+integer.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/fat_fs/inc/integer.h
+END

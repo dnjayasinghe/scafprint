@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/trusted_computing/!svn/ver/21584/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/emi_cible_stm32f4/build
+END
+stm32f4_usb_cdc_mini_ecsm.bin
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/trusted_computing/!svn/ver/21587/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/emi_cible_stm32f4/build/stm32f4_usb_cdc_mini_ecsm.bin
+END
+asm.S
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/trusted_computing/!svn/ver/21464/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/emi_cible_stm32f4/build/asm.S
+END
+stm32f4_usb_cdc_mini_ecsm.hex
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/trusted_computing/!svn/ver/21587/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/emi_cible_stm32f4/build/stm32f4_usb_cdc_mini_ecsm.hex
+END
+stm32f4_usb_cdc_mini_ecsm.elf
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/trusted_computing/!svn/ver/21587/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/emi_cible_stm32f4/build/stm32f4_usb_cdc_mini_ecsm.elf
+END

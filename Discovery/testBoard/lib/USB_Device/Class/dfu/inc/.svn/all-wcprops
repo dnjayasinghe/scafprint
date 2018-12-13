@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Class/dfu/inc
+END
+usbd_dfu_core.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Class/dfu/inc/usbd_dfu_core.h
+END
+usbd_dfu_mal.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Class/dfu/inc/usbd_dfu_mal.h
+END
+usbd_mem_if_template.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Class/dfu/inc/usbd_mem_if_template.h
+END
+usbd_flash_if.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Class/dfu/inc/usbd_flash_if.h
+END
+usbd_otp_if.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Class/dfu/inc/usbd_otp_if.h
+END

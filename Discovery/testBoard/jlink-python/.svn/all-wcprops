@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/trusted_computing/!svn/ver/19316/ecc_dugardin/cibles/STM32F4_USB_CDC/jlink-python
+END
+elf.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/trusted_computing/!svn/ver/19316/ecc_dugardin/cibles/STM32F4_USB_CDC/jlink-python/elf.py
+END
+jlink.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/trusted_computing/!svn/ver/19316/ecc_dugardin/cibles/STM32F4_USB_CDC/jlink-python/jlink.py
+END
+memory.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/trusted_computing/!svn/ver/19316/ecc_dugardin/cibles/STM32F4_USB_CDC/jlink-python/memory.py
+END

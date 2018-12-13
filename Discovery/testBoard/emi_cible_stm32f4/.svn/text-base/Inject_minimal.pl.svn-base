@@ -1,0 +1,118 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use Cwd;
+use Time::Out qw(timeout) ;
+use Encode;
+use utf8;
+use open ':std', ':encoding(UTF-8)';
+
+my @args;
+
+my $found=0;
+my $nb_attacks_done=0;
+my $nb_msg=0;
+my $SR=0;
+my $LOGFILE = ".gdb.txt";																																
+my $numArgs = $#ARGV + 1;
+#print "thanks, you gave me $numArgs command-line arguments.\n";
+my $nb_secs=5;
+
+my $file = $ARGV[1];
+my $binary = $ARGV[2];
+
+my $dest = $ARGV[3];
+
+my $nb_attacks= $ARGV[0];
+chomp($nb_attacks);
+
+sub Check {
+
+while (-e $LOGFILE){};
+
+    my ($c) = @_;
+  	my $ID=sprintf("%s",$c);
+		if($nb_attacks_done == 0){
+			#printf( "salut \n");
+			@args = ( "arm-none-eabi-gdb $binary --quiet --batch --command=$file " );	
+			system @args; 
+			#@args = ( "sdiff -s -w 160 output1.ref gdb.txt" );	
+			#system @args;
+			@args = ( "cat gdb.txt >> LOG_ATTACK_11b_".$dest );
+			system @args; 
+			@args = ( "mv gdb.txt .gdb.txt " );
+			system @args; 
+		}
+	
+		if(($nb_attacks >$nb_attacks_done)&&($nb_attacks_done !=0) ){
+			#printf( "salut \n");
+			@args = ( "arm-none-eabi-gdb $binary --quiet --batch --command=$file " );	
+			system @args;
+			#@args = ( "sdiff -s -w 160 output1.ref gdb.txt" );	
+			#system @args;
+			@args = ( "cat gdb.txt >> LOG_ATTACK_11b_".$dest );
+			system @args; 
+			@args = ( "mv gdb.txt .gdb.txt " );
+			system @args; 
+		} 	 
+	}
+		
+@args = ( "rm -rf  st-link.log gdb.txt mk.log " );
+system @args; 
+
+my @table;
+my $j=0;
+my $k_list ='retk_3';
+open(my $fh,$k_list)
+	or die "Y'a un problême avec ton fichier";
+while (my $row = <$fh>){
+	chomp $row ;
+	#print " $row \n " ;
+	$table[$j++]= $row;
+}
+
+for($nb_msg=0;$nb_msg<1;$nb_msg+=10)#for sending dynamic test vectors.
+{									#not used here : only one is used.
+	$nb_attacks_done=0;
+
+	for(my $i=0;$i<$nb_attacks;$i++)
+	{
+			timeout $nb_secs => sub {
+				#@args = ( "make clean > mk.log && make > mk.log  " );
+				#system @args;
+				#print $table[$i];
+				my ($r,$k) = (split / / , $table[$i] );
+                                #print "k from Inject_minimal: ",$k,"\n";
+				@args = ("./configure_generate_reference.pl \"\" \"reference_campagne.gdb\" \"$binary\" \"$r\" \"$k\" \"0x20001c48\" \"0x20001c78\" \"0x20001d18\" \"0x2001fef0\" ");
+				system @args;
+				&Check($i);
+				$nb_attacks_done=$nb_attacks_done+1;
+				printf("Injection %d\n", $i);
+
+		} ;
+		if ($@){
+			#@args = ( "./kill.sh > /dev/null" );
+			#system @args;
+			#@args = ( "pkill -9 JLinkExe > /dev/null" );
+			#system @args; 
+			@args = ( "pkill -9 arm-none-eabi-g > /dev/null" );
+			system @args;
+
+			@args = ( "make pgm > /dev/null" );
+			system @args;
+
+			#@args = ( "make reset > reset" );
+			#system @args; 
+			#sleep(1);
+			#@args = ( "./JLkGDB.sh > JLkGDB.log&" );
+			#system @args; 
+		}
+		
+	}
+}
+
+
+
+#Z.N
+

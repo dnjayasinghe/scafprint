@@ -1,0 +1,63 @@
+LoopFillZerobss () at lib/startup_stm32f4xx.s:92
+92	  ldr  r3, = _ebss
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x12d68 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8012f08
+Loading section .data, size 0xa14 lma 0x8012f10
+Start address 0x800c228, load size 80140
+Transfer rate: 11180 KB/sec, 3642 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x12d68 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8012f08
+Loading section .data, size 0xa14 lma 0x8012f10
+Start address 0x800c228, load size 80140
+Transfer rate: 15652 KB/sec, 3642 bytes/write.
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x12d68 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8012f08
+Loading section .data, size 0xa14 lma 0x8012f10
+Start address 0x800c228, load size 80140
+Transfer rate: 11180 KB/sec, 3642 bytes/write.
+cfg.gdb:6: Error in sourced command file:
+localhost:2331: Connexion refusée.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x12d68 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8012f08
+Loading section .data, size 0xa14 lma 0x8012f10
+Start address 0x800c228, load size 80140
+Transfer rate: 13043 KB/sec, 3642 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x12d68 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8012f08
+Loading section .data, size 0xa14 lma 0x8012f10
+Start address 0x800c228, load size 80140
+Transfer rate: 13043 KB/sec, 3642 bytes/write.
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x12d68 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8012f08
+Loading section .data, size 0xa14 lma 0x8012f10
+Start address 0x800c228, load size 80140
+Transfer rate: 11180 KB/sec, 3642 bytes/write.
+LoopFillZerobss () at lib/startup_stm32f4xx.s:92
+92	  ldr  r3, = _ebss
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x12d68 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8012f08
+Loading section .data, size 0xa14 lma 0x8012f10
+Start address 0x800c228, load size 80140
+Transfer rate: 13043 KB/sec, 3642 bytes/write.
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x12d68 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8012f08
+Loading section .data, size 0xa14 lma 0x8012f10
+Start address 0x800c228, load size 80140
+Transfer rate: 13043 KB/sec, 3642 bytes/write.

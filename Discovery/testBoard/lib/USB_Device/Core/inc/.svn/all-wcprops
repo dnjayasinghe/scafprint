@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Core/inc
+END
+usbd_def.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Core/inc/usbd_def.h
+END
+usbd_ioreq.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Core/inc/usbd_ioreq.h
+END
+usbd_conf_template.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Core/inc/usbd_conf_template.h
+END
+usbd_req.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Core/inc/usbd_req.h
+END
+usbd_core.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Core/inc/usbd_core.h
+END
+usbd_usr.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/USB_Device/Core/inc/usbd_usr.h
+END

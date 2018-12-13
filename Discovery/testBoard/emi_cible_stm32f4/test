@@ -1,0 +1,610 @@
+SEGGER J-Link GDB Server V4.92 Command Line Version
+
+JLinkARM.dll V4.92 (DLL compiled Sep 30 2014 09:34:53)
+
+-----GDB Server start settings-----
+GDBInit file:                  none
+GDB Server Listening port:     2331
+SWO raw output listening port: 2332
+Terminal I/O port:             2333
+Accept remote connection:      yes
+Generate logfile:              off
+Verify download:               off
+Init regs on start:            on
+Silent mode:                   off
+Single run mode:               off
+Target connection timeout:     5 sec.
+------J-Link related settings------
+J-Link Host interface:         USB
+J-Link script:                 none
+J-Link settings file:          none
+------Target related settings------
+Target device:                 stm32f407vg
+Target interface:              JTAG
+Target interface speed:        25000kHz
+Target endian:                 little
+
+Connecting to J-Link...
+J-Link is connected.
+Firmware: J-Trace Cortex-M Rev.3 compiled May  9 2014 18:01:15
+Hardware: V3.10
+S/N: 203200637
+Feature(s): RDI, FlashBP, FlashDL, JFlash, GDB
+Checking target voltage...
+Target voltage: 3.27 V
+Listening on TCP/IP port 2331
+Connecting to target...
+J-Link found 2 JTAG devices, Total IRLen = 9
+JTAG ID: 0x4BA00477 (Cortex-M4)
+Connected to target
+Waiting for GDB connection...Connected to 127.0.0.1
+Reading all registers
+Read 4 bytes @ address 0x00000000 (Data = 0x20020000)
+Read 2 bytes @ address 0x08000CDA (Data = 0xF000)
+Read 2 bytes @ address 0x08000CDA (Data = 0xF000)
+Read 2 bytes @ address 0x08000CDA (Data = 0xF000)
+Setting breakpoint @ address 0x08000CDA, Size = 2, BPHandle = 0x0001
+Starting target CPU...
+...Target halted (PC = 0x00000188)
+Reading all registers
+Read 4 bytes @ address 0x00000188 (Data = 0xFFFFFFFF)
+Removing breakpoint @ address 0x08000CDA, Size = 2
+Read 2 bytes @ address 0x08000D40 (Data = 0x4BAE)
+Read 2 bytes @ address 0x08000D42 (Data = 0x9340)
+Read 2 bytes @ address 0x08000DF4 (Data = 0xAB21)
+Setting breakpoint @ address 0x08000CDA, Size = 2, BPHandle = 0x0002
+Setting breakpoint @ address 0x08000DF4, Size = 2, BPHandle = 0x0003
+Starting target CPU...
+...Target halted (PC = 0x00000188)
+Reading all registers
+Read 4 bytes @ address 0x00000188 (Data = 0xFFFFFFFF)
+Removing breakpoint @ address 0x08000CDA, Size = 2
+Removing breakpoint @ address 0x08000DF4, Size = 2
+Read 2 bytes @ address 0x08000D40 (Data = 0x4BAE)
+Read 2 bytes @ address 0x08000D42 (Data = 0x9340)
+Read 2 bytes @ address 0x0800105E (Data = 0xA90C)
+Read 2 bytes @ address 0x08007F54 (Data = 0xE7FE)
+Read 2 bytes @ address 0x08007F54 (Data = 0xE7FE)
+Setting breakpoint @ address 0x08000CDA, Size = 2, BPHandle = 0x0004
+Setting breakpoint @ address 0x08000DF4, Size = 2, BPHandle = 0x0005
+Setting breakpoint @ address 0x0800105E, Size = 2, BPHandle = 0x0006
+Setting breakpoint @ address 0x08007F54, Size = 2, BPHandle = 0x0007
+Starting target CPU...
+...Target halted (PC = 0x00000188)
+Reading all registers
+Read 4 bytes @ address 0x00000188 (Data = 0xFFFFFFFF)
+Removing breakpoint @ address 0x08000CDA, Size = 2
+Removing breakpoint @ address 0x08000DF4, Size = 2
+Removing breakpoint @ address 0x0800105E, Size = 2
+Removing breakpoint @ address 0x08007F54, Size = 2
+Reset target CPU...
+GDB closed TCP/IP connection
+Connected to 127.0.0.1
+Reading all registers
+Read 4 bytes @ address 0x0800C248 (Data = 0xE0032100)
+Read 2 bytes @ address 0x08000CDA (Data = 0xF000)
+Read 2 bytes @ address 0x08000CDA (Data = 0xF000)
+Read 2 bytes @ address 0x08000CDA (Data = 0xF000)
+Setting breakpoint @ address 0x08000CDA, Size = 2, BPHandle = 0x0008
+Starting target CPU...
+...Breakpoint reached @ address 0x08000CDA
+Reading all registers
+Read 4 bytes @ address 0x08000CDA (Data = 0xFA3FF000)
+Removing breakpoint @ address 0x08000CDA, Size = 2
+Read 2 bytes @ address 0x08000D40 (Data = 0x4BAE)
+Read 2 bytes @ address 0x08000D42 (Data = 0x9340)
+Read 2 bytes @ address 0x08000DF4 (Data = 0xAB21)
+Setting breakpoint @ address 0x08000DF4, Size = 2, BPHandle = 0x0009
+Performing single step...
+...Target halted (PC = 0x0800115C)
+Reading all registers
+Read 4 bytes @ address 0x0800115C (Data = 0xB085B500)
+Setting breakpoint @ address 0x08000CDA, Size = 2, BPHandle = 0x000A
+Starting target CPU...
+...Breakpoint reached @ address 0x08000DF4
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Removing breakpoint @ address 0x08000CDA, Size = 2
+Removing breakpoint @ address 0x08000DF4, Size = 2
+Downloading 4 bytes @ address 0x20001AC4
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AC0
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001ABC
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AB8
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AB4
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AB0
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AAC
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AA8
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AA4
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AA0
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001A9C
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001A98
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Read 4 bytes @ address 0x2001FFF4 (Data = 0x08000D05)
+Read 4 bytes @ address 0x2001FFF4 (Data = 0x08000D05)
+Read 4 bytes @ address 0x08000D04 (Data = 0xF44F480C)
+Read 4 bytes @ address 0x2001FFDC (Data = 0x20001A98)
+Reading 8 bytes @ address 0x20001A98
+Reading 8 bytes @ address 0x20001AA0
+Reading 8 bytes @ address 0x20001AA8
+Reading 8 bytes @ address 0x20001AB0
+Reading 8 bytes @ address 0x20001AB8
+Reading 8 bytes @ address 0x20001AC0
+Reading 8 bytes @ address 0x20001AC8
+Read 2 bytes @ address 0x08000D40 (Data = 0x4BAE)
+Read 2 bytes @ address 0x08000D42 (Data = 0x9340)
+Read 2 bytes @ address 0x0800105E (Data = 0xA90C)
+Read 2 bytes @ address 0x08007F54 (Data = 0xE7FE)
+Read 2 bytes @ address 0x08007F54 (Data = 0xE7FE)
+Setting breakpoint @ address 0x08000CDA, Size = 2, BPHandle = 0x000B
+Setting breakpoint @ address 0x0800105E, Size = 2, BPHandle = 0x000C
+Setting breakpoint @ address 0x08007F54, Size = 2, BPHandle = 0x000D
+Performing single step...
+...Target halted (PC = 0x08000DF6)
+Reading all registers
+Read 4 bytes @ address 0x08000DF6 (Data = 0xF0024618)
+Setting breakpoint @ address 0x08000DF4, Size = 2, BPHandle = 0x000E
+Starting target CPU...
+...Breakpoint reached @ address 0x0800105E
+Reading all registers
+Read 4 bytes @ address 0x0800105E (Data = 0xAB0CA90C)
+Removing breakpoint @ address 0x08000CDA, Size = 2
+Removing breakpoint @ address 0x08000DF4, Size = 2
+Removing breakpoint @ address 0x0800105E, Size = 2
+Removing breakpoint @ address 0x08007F54, Size = 2
+Read 4 bytes @ address 0x20000A14 (Data = 0x7B0A6427)
+Read 4 bytes @ address 0x20000A18 (Data = 0x7BBAB821)
+Read 4 bytes @ address 0x20000A1C (Data = 0xC0A050D6)
+Read 4 bytes @ address 0x20000A20 (Data = 0x97F1C814)
+Read 4 bytes @ address 0x20000A24 (Data = 0x05CA04D2)
+Read 4 bytes @ address 0x20000A28 (Data = 0x423011E0)
+Read 4 bytes @ address 0x20000A3C (Data = 0x9E0B981A)
+Read 4 bytes @ address 0x20000A40 (Data = 0xD130870B)
+Read 4 bytes @ address 0x20000A44 (Data = 0xEC78865F)
+Read 4 bytes @ address 0x20000A48 (Data = 0x55BF061F)
+Read 4 bytes @ address 0x20000A4C (Data = 0xC6456DD8)
+Read 4 bytes @ address 0x20000A50 (Data = 0x638E1080)
+Read 4 bytes @ address 0x20000A64 (Data = 0x00000001)
+Read 4 bytes @ address 0x2001FEF0 (Data = 0x00000001)
+Reset target CPU...
+GDB closed TCP/IP connection
+Connected to 127.0.0.1
+Reading all registers
+Read 4 bytes @ address 0x0800C248 (Data = 0xE0032100)
+Read 2 bytes @ address 0x08000CDA (Data = 0xF000)
+Read 2 bytes @ address 0x08000CDA (Data = 0xF000)
+Read 2 bytes @ address 0x08000CDA (Data = 0xF000)
+Setting breakpoint @ address 0x08000CDA, Size = 2, BPHandle = 0x000F
+Starting target CPU...
+...Breakpoint reached @ address 0x08000CDA
+Reading all registers
+Read 4 bytes @ address 0x08000CDA (Data = 0xFA3FF000)
+Removing breakpoint @ address 0x08000CDA, Size = 2
+Read 2 bytes @ address 0x08000D40 (Data = 0x4BAE)
+Read 2 bytes @ address 0x08000D42 (Data = 0x9340)
+Read 2 bytes @ address 0x08000DF4 (Data = 0xAB21)
+Setting breakpoint @ address 0x08000DF4, Size = 2, BPHandle = 0x0010
+Performing single step...
+...Target halted (PC = 0x0800115C)
+Reading all registers
+Read 4 bytes @ address 0x0800115C (Data = 0xB085B500)
+Setting breakpoint @ address 0x08000CDA, Size = 2, BPHandle = 0x0011
+Starting target CPU...
+...Breakpoint reached @ address 0x08000DF4
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Removing breakpoint @ address 0x08000CDA, Size = 2
+Removing breakpoint @ address 0x08000DF4, Size = 2
+Downloading 4 bytes @ address 0x20001AC4
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AC0
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001ABC
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AB8
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AB4
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AB0
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AAC
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AA8
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AA4
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AA0
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001A9C
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001A98
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Read 4 bytes @ address 0x2001FFF4 (Data = 0x08000D05)
+Read 4 bytes @ address 0x2001FFF4 (Data = 0x08000D05)
+Read 4 bytes @ address 0x08000D04 (Data = 0xF44F480C)
+Read 4 bytes @ address 0x2001FFDC (Data = 0x20001A98)
+Reading 8 bytes @ address 0x20001A98
+Reading 8 bytes @ address 0x20001AA0
+Reading 8 bytes @ address 0x20001AA8
+Reading 8 bytes @ address 0x20001AB0
+Reading 8 bytes @ address 0x20001AB8
+Reading 8 bytes @ address 0x20001AC0
+Reading 8 bytes @ address 0x20001AC8
+Read 2 bytes @ address 0x08000D40 (Data = 0x4BAE)
+Read 2 bytes @ address 0x08000D42 (Data = 0x9340)
+Read 2 bytes @ address 0x0800105E (Data = 0xA90C)
+Read 2 bytes @ address 0x08007F54 (Data = 0xE7FE)
+Read 2 bytes @ address 0x08007F54 (Data = 0xE7FE)
+Setting breakpoint @ address 0x08000CDA, Size = 2, BPHandle = 0x0012
+Setting breakpoint @ address 0x0800105E, Size = 2, BPHandle = 0x0013
+Setting breakpoint @ address 0x08007F54, Size = 2, BPHandle = 0x0014
+Performing single step...
+...Target halted (PC = 0x08000DF6)
+Reading all registers
+Read 4 bytes @ address 0x08000DF6 (Data = 0xF0024618)
+Setting breakpoint @ address 0x08000DF4, Size = 2, BPHandle = 0x0015
+Starting target CPU...
+...Breakpoint reached @ address 0x0800105E
+Reading all registers
+Read 4 bytes @ address 0x0800105E (Data = 0xAB0CA90C)
+Removing breakpoint @ address 0x08000CDA, Size = 2
+Removing breakpoint @ address 0x08000DF4, Size = 2
+Removing breakpoint @ address 0x0800105E, Size = 2
+Removing breakpoint @ address 0x08007F54, Size = 2
+Read 4 bytes @ address 0x20000A14 (Data = 0xB1745A7F)
+Read 4 bytes @ address 0x20000A18 (Data = 0xF484AF9A)
+Read 4 bytes @ address 0x20000A1C (Data = 0x3EC7985C)
+Read 4 bytes @ address 0x20000A20 (Data = 0x8A9B6161)
+Read 4 bytes @ address 0x20000A24 (Data = 0x6FDDC0DC)
+Read 4 bytes @ address 0x20000A28 (Data = 0xDF62CA79)
+Read 4 bytes @ address 0x20000A3C (Data = 0x9AC8D03E)
+Read 4 bytes @ address 0x20000A40 (Data = 0x24FE42C5)
+Read 4 bytes @ address 0x20000A44 (Data = 0xA948B0BE)
+Read 4 bytes @ address 0x20000A48 (Data = 0x1C4D5DDA)
+Read 4 bytes @ address 0x20000A4C (Data = 0xA76CA9C2)
+Read 4 bytes @ address 0x20000A50 (Data = 0x824F872E)
+Read 4 bytes @ address 0x20000A64 (Data = 0x00000001)
+Read 4 bytes @ address 0x2001FEF0 (Data = 0x00000001)
+Reset target CPU...
+GDB closed TCP/IP connection
+Connected to 127.0.0.1
+Reading all registers
+Read 4 bytes @ address 0x0800C248 (Data = 0xE0032100)
+Read 2 bytes @ address 0x08000CDA (Data = 0xF000)
+Read 2 bytes @ address 0x08000CDA (Data = 0xF000)
+Read 2 bytes @ address 0x08000CDA (Data = 0xF000)
+Setting breakpoint @ address 0x08000CDA, Size = 2, BPHandle = 0x0016
+Starting target CPU...
+...Breakpoint reached @ address 0x08000CDA
+Reading all registers
+Read 4 bytes @ address 0x08000CDA (Data = 0xFA3FF000)
+Removing breakpoint @ address 0x08000CDA, Size = 2
+Read 2 bytes @ address 0x08000D40 (Data = 0x4BAE)
+Read 2 bytes @ address 0x08000D42 (Data = 0x9340)
+Read 2 bytes @ address 0x08000DF4 (Data = 0xAB21)
+Setting breakpoint @ address 0x08000DF4, Size = 2, BPHandle = 0x0017
+Performing single step...
+...Target halted (PC = 0x0800115C)
+Reading all registers
+Read 4 bytes @ address 0x0800115C (Data = 0xB085B500)
+Setting breakpoint @ address 0x08000CDA, Size = 2, BPHandle = 0x0018
+Starting target CPU...
+...Breakpoint reached @ address 0x08000DF4
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Removing breakpoint @ address 0x08000CDA, Size = 2
+Removing breakpoint @ address 0x08000DF4, Size = 2
+Downloading 4 bytes @ address 0x20001AC4
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AC0
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001ABC
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AB8
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AB4
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AB0
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AAC
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AA8
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AA4
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AA0
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001A9C
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001A98
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Read 4 bytes @ address 0x2001FFF4 (Data = 0x08000D05)
+Read 4 bytes @ address 0x2001FFF4 (Data = 0x08000D05)
+Read 4 bytes @ address 0x08000D04 (Data = 0xF44F480C)
+Read 4 bytes @ address 0x2001FFDC (Data = 0x20001A98)
+Reading 8 bytes @ address 0x20001A98
+Reading 8 bytes @ address 0x20001AA0
+Reading 8 bytes @ address 0x20001AA8
+Reading 8 bytes @ address 0x20001AB0
+Reading 8 bytes @ address 0x20001AB8
+Reading 8 bytes @ address 0x20001AC0
+Reading 8 bytes @ address 0x20001AC8
+Read 2 bytes @ address 0x08000D40 (Data = 0x4BAE)
+Read 2 bytes @ address 0x08000D42 (Data = 0x9340)
+Read 2 bytes @ address 0x0800105E (Data = 0xA90C)
+Read 2 bytes @ address 0x08007F54 (Data = 0xE7FE)
+Read 2 bytes @ address 0x08007F54 (Data = 0xE7FE)
+Setting breakpoint @ address 0x08000CDA, Size = 2, BPHandle = 0x0019
+Setting breakpoint @ address 0x0800105E, Size = 2, BPHandle = 0x001A
+Setting breakpoint @ address 0x08007F54, Size = 2, BPHandle = 0x001B
+Performing single step...
+...Target halted (PC = 0x08000DF6)
+Reading all registers
+Read 4 bytes @ address 0x08000DF6 (Data = 0xF0024618)
+Setting breakpoint @ address 0x08000DF4, Size = 2, BPHandle = 0x001C
+Starting target CPU...
+...Breakpoint reached @ address 0x0800105E
+Reading all registers
+Read 4 bytes @ address 0x0800105E (Data = 0xAB0CA90C)
+Removing breakpoint @ address 0x08000CDA, Size = 2
+Removing breakpoint @ address 0x08000DF4, Size = 2
+Removing breakpoint @ address 0x0800105E, Size = 2
+Removing breakpoint @ address 0x08007F54, Size = 2
+Read 4 bytes @ address 0x20000A14 (Data = 0x514DE335)
+Read 4 bytes @ address 0x20000A18 (Data = 0xDC75C0E0)
+Read 4 bytes @ address 0x20000A1C (Data = 0xE1E37888)
+Read 4 bytes @ address 0x20000A20 (Data = 0x66EDA387)
+Read 4 bytes @ address 0x20000A24 (Data = 0x9D9D6B1E)
+Read 4 bytes @ address 0x20000A28 (Data = 0x7B5F51A5)
+Read 4 bytes @ address 0x20000A3C (Data = 0x38C55C5D)
+Read 4 bytes @ address 0x20000A40 (Data = 0xC084B952)
+Read 4 bytes @ address 0x20000A44 (Data = 0xCE8A6E68)
+Read 4 bytes @ address 0x20000A48 (Data = 0x440EE41B)
+Read 4 bytes @ address 0x20000A4C (Data = 0x1C32BEEE)
+Read 4 bytes @ address 0x20000A50 (Data = 0x324C781B)
+Read 4 bytes @ address 0x20000A64 (Data = 0x00000001)
+Read 4 bytes @ address 0x2001FEF0 (Data = 0x00000001)
+Reset target CPU...
+GDB closed TCP/IP connection
+Connected to 127.0.0.1
+Reading all registers
+Read 4 bytes @ address 0x0800C248 (Data = 0xE0032100)
+Read 2 bytes @ address 0x08000CDA (Data = 0xF000)
+Read 2 bytes @ address 0x08000CDA (Data = 0xF000)
+Read 2 bytes @ address 0x08000CDA (Data = 0xF000)
+Setting breakpoint @ address 0x08000CDA, Size = 2, BPHandle = 0x001D
+Starting target CPU...
+...Breakpoint reached @ address 0x08000CDA
+Reading all registers
+Read 4 bytes @ address 0x08000CDA (Data = 0xFA3FF000)
+Removing breakpoint @ address 0x08000CDA, Size = 2
+Read 2 bytes @ address 0x08000D40 (Data = 0x4BAE)
+Read 2 bytes @ address 0x08000D42 (Data = 0x9340)
+Read 2 bytes @ address 0x08000DF4 (Data = 0xAB21)
+Setting breakpoint @ address 0x08000DF4, Size = 2, BPHandle = 0x001E
+Performing single step...
+...Target halted (PC = 0x0800115C)
+Reading all registers
+Read 4 bytes @ address 0x0800115C (Data = 0xB085B500)
+Setting breakpoint @ address 0x08000CDA, Size = 2, BPHandle = 0x001F
+Starting target CPU...
+...Breakpoint reached @ address 0x08000DF4
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Removing breakpoint @ address 0x08000CDA, Size = 2
+Removing breakpoint @ address 0x08000DF4, Size = 2
+Downloading 4 bytes @ address 0x20001AC4
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AC0
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001ABC
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AB8
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AB4
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AB0
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AAC
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AA8
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AA4
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AA0
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001A9C
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001A98
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Read 4 bytes @ address 0x2001FFF4 (Data = 0x08000D05)
+Read 4 bytes @ address 0x2001FFF4 (Data = 0x08000D05)
+Read 4 bytes @ address 0x08000D04 (Data = 0xF44F480C)
+Read 4 bytes @ address 0x2001FFDC (Data = 0x20001A98)
+Reading 8 bytes @ address 0x20001A98
+Reading 8 bytes @ address 0x20001AA0
+Reading 8 bytes @ address 0x20001AA8
+Reading 8 bytes @ address 0x20001AB0
+Reading 8 bytes @ address 0x20001AB8
+Reading 8 bytes @ address 0x20001AC0
+Reading 8 bytes @ address 0x20001AC8
+Read 2 bytes @ address 0x08000D40 (Data = 0x4BAE)
+Read 2 bytes @ address 0x08000D42 (Data = 0x9340)
+Read 2 bytes @ address 0x0800105E (Data = 0xA90C)
+Read 2 bytes @ address 0x08007F54 (Data = 0xE7FE)
+Read 2 bytes @ address 0x08007F54 (Data = 0xE7FE)
+Setting breakpoint @ address 0x08000CDA, Size = 2, BPHandle = 0x0020
+Setting breakpoint @ address 0x0800105E, Size = 2, BPHandle = 0x0021
+Setting breakpoint @ address 0x08007F54, Size = 2, BPHandle = 0x0022
+Performing single step...
+...Target halted (PC = 0x08000DF6)
+Reading all registers
+Read 4 bytes @ address 0x08000DF6 (Data = 0xF0024618)
+Setting breakpoint @ address 0x08000DF4, Size = 2, BPHandle = 0x0023
+Starting target CPU...
+...Breakpoint reached @ address 0x0800105E
+Reading all registers
+Read 4 bytes @ address 0x0800105E (Data = 0xAB0CA90C)
+Removing breakpoint @ address 0x08000CDA, Size = 2
+Removing breakpoint @ address 0x08000DF4, Size = 2
+Removing breakpoint @ address 0x0800105E, Size = 2
+Removing breakpoint @ address 0x08007F54, Size = 2
+Read 4 bytes @ address 0x20000A14 (Data = 0x291E2169)
+Read 4 bytes @ address 0x20000A18 (Data = 0xAF2E2539)
+Read 4 bytes @ address 0x20000A1C (Data = 0xDB2323EA)
+Read 4 bytes @ address 0x20000A20 (Data = 0xBB51EEC7)
+Read 4 bytes @ address 0x20000A24 (Data = 0x5837A122)
+Read 4 bytes @ address 0x20000A28 (Data = 0xE7D6E59D)
+Read 4 bytes @ address 0x20000A3C (Data = 0x39E9E3DA)
+Read 4 bytes @ address 0x20000A40 (Data = 0x292DDBF8)
+Read 4 bytes @ address 0x20000A44 (Data = 0xC6142DC4)
+Read 4 bytes @ address 0x20000A48 (Data = 0x6F896177)
+Read 4 bytes @ address 0x20000A4C (Data = 0xB008B95F)
+Read 4 bytes @ address 0x20000A50 (Data = 0x485E2EE6)
+Read 4 bytes @ address 0x20000A64 (Data = 0x00000001)
+Read 4 bytes @ address 0x2001FEF0 (Data = 0x00000001)
+Reset target CPU...
+GDB closed TCP/IP connection
+Connected to 127.0.0.1
+Reading all registers
+Read 4 bytes @ address 0x0800C248 (Data = 0xE0032100)
+Read 2 bytes @ address 0x08000CDA (Data = 0xF000)
+Read 2 bytes @ address 0x08000CDA (Data = 0xF000)
+Read 2 bytes @ address 0x08000CDA (Data = 0xF000)
+Setting breakpoint @ address 0x08000CDA, Size = 2, BPHandle = 0x0024
+Starting target CPU...
+...Breakpoint reached @ address 0x08000CDA
+Reading all registers
+Read 4 bytes @ address 0x08000CDA (Data = 0xFA3FF000)
+Removing breakpoint @ address 0x08000CDA, Size = 2
+Read 2 bytes @ address 0x08000D40 (Data = 0x4BAE)
+Read 2 bytes @ address 0x08000D42 (Data = 0x9340)
+Read 2 bytes @ address 0x08000DF4 (Data = 0xAB21)
+Setting breakpoint @ address 0x08000DF4, Size = 2, BPHandle = 0x0025
+Performing single step...
+...Target halted (PC = 0x0800115C)
+Reading all registers
+Read 4 bytes @ address 0x0800115C (Data = 0xB085B500)
+Setting breakpoint @ address 0x08000CDA, Size = 2, BPHandle = 0x0026
+Starting target CPU...
+...Breakpoint reached @ address 0x08000DF4
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Removing breakpoint @ address 0x08000CDA, Size = 2
+Removing breakpoint @ address 0x08000DF4, Size = 2
+Downloading 4 bytes @ address 0x20001AC4
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AC0
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001ABC
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AB8
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AB4
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AB0
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AAC
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AA8
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AA4
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001AA0
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001A9C
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Downloading 4 bytes @ address 0x20001A98
+Reading all registers
+Read 4 bytes @ address 0x08000DF4 (Data = 0x4618AB21)
+Read 4 bytes @ address 0x2001FFF4 (Data = 0x08000D05)
+Read 4 bytes @ address 0x2001FFF4 (Data = 0x08000D05)
+Read 4 bytes @ address 0x08000D04 (Data = 0xF44F480C)
+Read 4 bytes @ address 0x2001FFDC (Data = 0x20001A98)
+Reading 8 bytes @ address 0x20001A98
+Reading 8 bytes @ address 0x20001AA0
+Reading 8 bytes @ address 0x20001AA8
+Reading 8 bytes @ address 0x20001AB0
+Reading 8 bytes @ address 0x20001AB8
+Reading 8 bytes @ address 0x20001AC0
+Reading 8 bytes @ address 0x20001AC8
+Read 2 bytes @ address 0x08000D40 (Data = 0x4BAE)
+Read 2 bytes @ address 0x08000D42 (Data = 0x9340)
+Read 2 bytes @ address 0x0800105E (Data = 0xA90C)
+Read 2 bytes @ address 0x08007F54 (Data = 0xE7FE)
+Read 2 bytes @ address 0x08007F54 (Data = 0xE7FE)
+Setting breakpoint @ address 0x08000CDA, Size = 2, BPHandle = 0x0027
+Setting breakpoint @ address 0x0800105E, Size = 2, BPHandle = 0x0028
+Setting breakpoint @ address 0x08007F54, Size = 2, BPHandle = 0x0029
+Performing single step...
+...Target halted (PC = 0x08000DF6)
+GDB closed TCP/IP connection

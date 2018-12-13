@@ -1,0 +1,81 @@
+set verbose off
+set pagination off
+set confirm off			
+set logging on
+target extended-remote localhost:2331
+#load build/stm32f4_usb_cdc_mini_ecsm.elf
+layout
+hb main
+commands 1
+end
+c
+hb main.c:355
+commands 2
+#	x/12xw 0x20001a18
+#	print 1
+	set {int}0x20001b24=0x61356334
+	set {int}0x20001b20=0x63343934
+	set {int}0x20001b1c=0x33626133
+	set {int}0x20001b18=0x62653364
+	set {int}0x20001b14=0x62313030
+	set {int}0x20001b10=0x36366662
+	set {int}0x20001b0c=0x65643835
+	set {int}0x20001b08=0x35623263
+	set {int}0x20001b04=0x61303332
+	set {int}0x20001b00=0x33353163
+	set {int}0x20001a9c=0x30633265
+	set {int}0x20001a98=0x35396364
+#	x/12xw 0x20001a18
+#	set {int}0x20001A0C=0x62666666
+#	set {int}0x20001A08=0x66666666
+#	set {int}0x20001A04=0x30303030
+#	set {int}0x20001A00=0x30303030
+#	set {int}0x200019fc=0x30303030
+#	set {int}0x200019f8=0x30303030
+#	set {int}0x200019f4=0x30303030
+#	set {int}0x200019f0=0x30303030
+#	set {int}0x200019eC=0x30303030
+#	set {int}0x200019e8=0x30303030
+#	set {int}0x200019e4=0x30303030
+#	set {int}0x200019e0=0x30303030
+end
+c
+hb main.c:404
+commands 3
+	i r
+#	print 1
+	x/3xw 0x2001FF18
+	x/3xw 0x2001FF24
+	x/3xw 0x2001FF30
+#        print "BUFFER :"
+#        x/30xw BUFFER
+	print "x"
+	x/6xw 0x20000a14
+	print "y"
+	x/6xw 0x20000a3c
+	print "z"
+	x/1xw 0x20000a64
+	print "flag"
+	x/1xw 0x2001fef0
+#	print "x"
+#	x/6xw 0x20001c48
+#	print "y"
+#	x/6xw 0x20001c78
+#	print "z"
+#	x/1xw 0x20001d18
+#	print "flag"
+#	x/1xw 0x2001fef0
+	set logging off
+#quit
+end
+c
+hb stm32f4xx_it.c:63
+commands 4
+	#i r
+	#x/800xw 0x20000200
+	set logging off
+#quit
+end
+c
+set logging off
+#quit

@@ -1,0 +1,12 @@
+
+--Cette ligne, et les suivantes ci-dessous, seront ignorées--
+
+M    emi_cible_stm32f4/inc/usb_conf.h
+M    emi_cible_stm32f4/gdb.txt
+M    emi_cible_stm32f4/configure.pl
+M    emi_cible_stm32f4/build/stm32f4_usb_cdc_mini_ecsm.elf
+M    emi_cible_stm32f4/build/stm32f4_usb_cdc_mini_ecsm.bin
+M    emi_cible_stm32f4/build/stm32f4_usb_cdc_mini_ecsm.hex
+M    emi_cible_stm32f4/Makefile
+M    emi_cible_stm32f4/syscalls.c
+M    emi_cible_stm32f4/cfg.gdb

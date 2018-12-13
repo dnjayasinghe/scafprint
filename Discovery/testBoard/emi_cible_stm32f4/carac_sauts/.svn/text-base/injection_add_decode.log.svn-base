@@ -1,0 +1,1818 @@
+
+	charge_binaire.gdb:5: Error in sourced command file:
+	Protocol error: qXfer:features:read (target-features) conflicting enabled res
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	0x00000000 in ?? ()
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+
+	Program received signal SIGTRAP, Trace/breakpoint trap.
+	0x08000b8e in main () at main.c:69
+	69		asm(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	r12            0x20000560	536872288
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+
+	charge_binaire.gdb:5: Error in sourced command file:
+	Remote communication error.  Target disconnected.: Connexion ré-initialisée p
+
+
+	0x00000000 in ?? ()
+
+	r11            0x47040210	1191445008
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r12            0x2000050c	536872204
+	0x20000500:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0x44444444
+	0x20000510:	0x44444444	0x44444444	0x44444444	0x44444444
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+	r0             0x10000200	268435968
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	r12            0x20000560	536872288
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r12            0x20000560	536872288
+
+
+	r12            0x20000560	536872288
+
+	r12            0x20000560	536872288
+
+	r0             0x10000224	268436004
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+
+	r0             0x0	0
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	Program received signal SIGTRAP, Trace/breakpoint trap.
+	0x08000b8e in main () at main.c:69
+	69		asm(
+	r12            0x20000560	536872288
+
+	Program received signal SIGTRAP, Trace/breakpoint trap.
+	0x08000b8e in main () at main.c:69
+	69		asm(
+	r12            0x20000560	536872288
+
+	r12            0x20000560	536872288
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r12            0x20000560	536872288
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r12            0x20000560	536872288
+
+	r12            0x20000560	536872288
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r11            0x47040210	1191445008
+
+	r12            0x20000560	536872288
+
+	r12            0x2000050c	536872204
+	0x20000500:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0x44444444
+	0x20000510:	0x44444444	0x44444444	0x44444444	0x44444444
+	r12            0x20000560	536872288
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r12            0x20000560	536872288
+
+	r11            0x47040210	1191445008
+
+	r12            0x20000560	536872288
+
+	r11            0x47040210	1191445008
+	r12            0x2000050c	536872204
+	0x20000500:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0x44444444
+	0x20000510:	0x44444444	0x44444444	0x44444444	0x44444444
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+	r0             0x0	0
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r12            0x2000050c	536872204
+	0x20000500:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0x44444444
+	0x20000510:	0x44444444	0x44444444	0x44444444	0x44444444
+	r0             0x10000200	268435968
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r12            0x20000560	536872288
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r11            0x47040210	1191445008
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r12            0x2000050c	536872204
+	0x20000500:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0x44444444
+	0x20000510:	0x44444444	0x44444444	0x44444444	0x44444444
+
+	r12            0x20000560	536872288
+	r12            0x20000560	536872288
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+
+	charge_binaire.gdb:5: Error in sourced command file:
+	Remote communication error.  Target disconnected.: Connexion ré-initialisée p
+
+	0x00000000 in ?? ()
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r12            0x20000560	536872288
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	Program received signal SIGTRAP, Trace/breakpoint trap.
+	0x08000b8e in main () at main.c:69
+	69		asm(
+
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 10 at 0x8000f00: file main.c, line 295.
+
+	r12            0x20000560	536872288
+
+	r12            0x20000560	536872288
+	r12            0x20000560	536872288
+
+	r12            0x2000050c	536872204
+	0x20000500:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0x44444444
+	0x20000510:	0x44444444	0x44444444	0x44444444	0x44444444
+	Program received signal SIGTRAP, Trace/breakpoint trap.
+	0x08000b8e in main () at main.c:69
+	69		asm(
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r0             0x0	0
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r12            0x20000560	536872288
+	r0             0x0	0
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+	r12            0x20000560	536872288
+	r12            0x20000560	536872288
+
+	r12            0x20000560	536872288
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r12            0x20000560	536872288
+
+	r12            0x20000560	536872288
+
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r12            0x20000560	536872288
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r12            0x20000560	536872288
+
+	r12            0x20000560	536872288
+	r12            0x20000560	536872288
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+
+	r12            0x2000050c	536872204
+	0x20000500:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0x44444444
+	0x20000510:	0x44444444	0x44444444	0x44444444	0x44444444
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r0             0x10000224	268436004
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r12            0x20000560	536872288
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 10 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 11 at 0x8000f00: file main.c, line 295.
+
+	r11            0x47040210	1191445008
+
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r12            0x20000560	536872288
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r11            0x47040210	1191445008
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+
+	charge_binaire.gdb:5: Error in sourced command file:
+	Remote communication error.  Target disconnected.: Connexion ré-initialisée p
+	0x00000000 in ?? ()
+
+
+	r0             0x0	0
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+	r12            0x20000560	536872288
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	r12            0x20000560	536872288
+
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r0             0x10000200	268435968
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r12            0x20000560	536872288
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	r12            0x20000560	536872288
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 10 at 0x8000f00: file main.c, line 295.
+
+	r12            0x20000560	536872288
+	r12            0x20000560	536872288
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+
+	r12            0x20000560	536872288
+
+
+	r12            0x2000050c	536872204
+	0x20000500:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0x44444444
+	0x20000510:	0x44444444	0x44444444	0x44444444	0x44444444
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+	r12            0x20000560	536872288
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+	r12            0x2000050c	536872204
+	0x20000500:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0x44444444
+	0x20000510:	0x44444444	0x44444444	0x44444444	0x44444444
+
+
+	r11            0x47040210	1191445008
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 10 at 0x8000f00: file main.c, line 295.
+
+	r12            0x20000560	536872288
+
+	r0             0x10000200	268435968
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r0             0x0	0
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r11            0x47040210	1191445008
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r12            0x20000560	536872288
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	r11            0x47040210	1191445008
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r12            0x20000560	536872288
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r12            0x20000560	536872288
+
+	r12            0x20000560	536872288
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	Program received signal SIGTRAP, Trace/breakpoint trap.
+	0x08000b8e in main () at main.c:69
+	69		asm(
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r12            0x20000560	536872288
+	r12            0x20000560	536872288
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r12            0x20000560	536872288
+
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Program received signal SIGTRAP, Trace/breakpoint trap.
+	0x08000b8e in main () at main.c:69
+	69		asm(
+	r12            0x20000560	536872288
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+
+	charge_binaire.gdb:5: Error in sourced command file:
+	Remote communication error.  Target disconnected.: Connexion ré-initialisée p
+	0x00000000 in ?? ()
+
+	r12            0x20000560	536872288
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r12            0x20000560	536872288
+	r12            0x20000560	536872288
+
+	r12            0x20000560	536872288
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r12            0x20000560	536872288
+
+	r11            0x47040210	1191445008
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	r12            0x2000050c	536872204
+	0x20000500:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0x44444444
+	0x20000510:	0x44444444	0x44444444	0x44444444	0x44444444
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+
+	r0             0x0	0
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 8 at 0x8000f00: file main.c, line 295.
+
+	Breakpoint 1, main () at main.c:22
+	22	{
+	Hardware assisted breakpoint 9 at 0x8000f00: file main.c, line 295.
+
+	Program received signal SIGTRAP, Trace/breakpoint trap.
+	0x08000b8e in main () at main.c:69
+	69		asm(
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	r12            0x20000560	536872288
+	r12            0x2000050c	536872204
+	0x20000500:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0x44444444
+	0x20000510:	0x44444444	0x44444444	0x44444444	0x44444444
+
+	r11            0x47040210	1191445008
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r12            0x20000560	536872288
+
+
+	r12            0x2000050c	536872204
+	0x20000500:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0x44444444
+	0x20000510:	0x44444444	0x44444444	0x44444444	0x44444444
+	r12            0x20000560	536872288
+
+	r12            0x20000560	536872288
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+
+
+	r12            0x20000560	536872288
+
+	r12            0x20000560	536872288
+
+	r12            0x2000050c	536872204
+	0x20000500:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0x44444444
+	0x20000510:	0x44444444	0x44444444	0x44444444	0x44444444
+
+
+	r11            0x47040210	1191445008
+
+
+	r0             0x0	0
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	r12            0x2000050c	536872204
+	0x20000500:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0x44444444
+	0x20000510:	0x44444444	0x44444444	0x44444444	0x44444444
+
+	r12            0x2000050c	536872204
+	0x20000500:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0x44444444
+	0x20000510:	0x44444444	0x44444444	0x44444444	0x44444444
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+
+	r12            0x20000560	536872288
+
+
+
+	r12            0x20000560	536872288
+
+	r12            0x2000050c	536872204
+	0x20000500:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0x44444444
+	0x20000510:	0x44444444	0x44444444	0x44444444	0x44444444
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	r11            0x47040210	1191445008
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r12            0x20000560	536872288
+	r12            0x20000560	536872288
+
+
+	r12            0x20000560	536872288
+
+	r12            0x20000560	536872288
+	r11            0x47040210	1191445008
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+
+	r12            0x20000560	536872288
+
+
+
+
+
+	r12            0x2000050c	536872204
+	0x20000500:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0x44444444
+	0x20000510:	0x44444444	0x44444444	0x44444444	0x44444444
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r12            0x20000560	536872288
+
+	r12            0x20000560	536872288
+
+	r0             0x10000224	268436004
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r12            0x2000050c	536872204
+	0x20000500:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0x44444444
+	0x20000510:	0x44444444	0x44444444	0x44444444	0x44444444
+
+	r12            0x20000560	536872288
+
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	r12            0x20000560	536872288
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	r12            0x20000560	536872288
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r11            0x47040210	1191445008
+
+	r11            0x47040210	1191445008
+	r12            0x2000050c	536872204
+	0x20000500:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0x44444444
+	0x20000510:	0x44444444	0x44444444	0x44444444	0x44444444
+
+	r12            0x20000560	536872288
+
+	r12            0x20000560	536872288
+
+
+	r11            0x47040210	1191445008
+
+
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	r12            0x20000560	536872288
+
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	r12            0x20000560	536872288
+
+
+
+
+
+	r0             0x10000224	268436004
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r12            0x20000560	536872288
+
+
+	r12            0x20000560	536872288
+
+	r11            0x47040210	1191445008
+	r12            0x2000050c	536872204
+	0x20000500:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0x44444444
+	0x20000510:	0x44444444	0x44444444	0x44444444	0x44444444
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r0             0x10000200	268435968
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+
+	r12            0x20000560	536872288
+
+
+	r12            0x2000050c	536872204
+	0x20000500:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0x44444444
+	0x20000510:	0x44444444	0x44444444	0x44444444	0x44444444
+
+	r12            0x20000560	536872288
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+
+	r11            0x47040210	1191445008
+
+
+
+	r11            0x47040210	1191445008
+
+	r0             0x10000220	268436000
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+	r12            0x20000560	536872288
+
+	r12            0x20000560	536872288
+
+
+
+	r12            0x20000560	536872288
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r12            0x20000560	536872288
+	r12            0x20000560	536872288
+
+	r12            0x20000560	536872288
+
+	r12            0x20000560	536872288
+	r12            0x20000560	536872288
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r0             0x10000000	268435456
+	r9             0x5c5c5c5b	1549556827
+	r11            0x47040210	1191445008
+	r12            0x20000558	536872280
+
+	r12            0x20000560	536872288
+	r12            0x20000560	536872288
+Injection 199  
+0.000000  

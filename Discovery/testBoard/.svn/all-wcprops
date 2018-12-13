@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/trusted_computing/!svn/ver/21584/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm
+END
+stm32_flash.ld
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/trusted_computing/!svn/ver/21439/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/stm32_flash.ld
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/trusted_computing/!svn/ver/21349/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/.project
+END
+Brainpoolr1_p256_10points_16.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/trusted_computing/!svn/ver/21350/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/Brainpoolr1_p256_10points_16.txt
+END
+config_supply.py
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/trusted_computing/!svn/ver/21350/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/config_supply.py
+END
+gdb.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/trusted_computing/!svn/ver/21350/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/gdb.txt
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/trusted_computing/!svn/ver/21350/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/config.h
+END
+power.jlk
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/trusted_computing/!svn/ver/21439/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/power.jlk
+END
+E3631A.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/trusted_computing/!svn/ver/21350/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/E3631A.pyc
+END
+_impact.log
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/trusted_computing/!svn/ver/21350/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/_impact.log
+END
+charge_binaire.gdb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/trusted_computing/!svn/ver/21350/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/charge_binaire.gdb
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/trusted_computing/!svn/ver/21438/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/Makefile
+END
+_impact.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/trusted_computing/!svn/ver/21350/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/_impact.cmd
+END
+charge_pas_binaire.gdb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/trusted_computing/!svn/ver/21350/articles/2015/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/charge_pas_binaire.gdb
+END

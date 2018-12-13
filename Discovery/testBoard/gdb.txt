@@ -1,0 +1,581 @@
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x145a4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801472c
+Loading section .data, size 0xa20 lma 0x8014734
+Start address 0x800d798, load size 86356
+Transfer rate: 28110 KB/sec, 9595 bytes/write.
+0x0800d798 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x145a4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801472c
+Loading section .data, size 0xa20 lma 0x8014734
+Start address 0x800d798, load size 86356
+Transfer rate: 28110 KB/sec, 9595 bytes/write.
+0x0800d798 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x145a4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801472c
+Loading section .data, size 0xa20 lma 0x8014734
+Start address 0x800d798, load size 86356
+Transfer rate: 28110 KB/sec, 9595 bytes/write.
+0x0800d798 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x145a4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801472c
+Loading section .data, size 0xa20 lma 0x8014734
+Start address 0x800d798, load size 86356
+Transfer rate: 21083 KB/sec, 9595 bytes/write.
+0x0800d798 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x145a4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801472c
+Loading section .data, size 0xa20 lma 0x8014734
+Start address 0x800d798, load size 86356
+Transfer rate: 28110 KB/sec, 9595 bytes/write.
+0x0800d798 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x145a4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801472c
+Loading section .data, size 0xa20 lma 0x8014734
+Start address 0x800d798, load size 86356
+Transfer rate: 28110 KB/sec, 9595 bytes/write.
+0x0800d798 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x145a4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801472c
+Loading section .data, size 0xa20 lma 0x8014734
+Start address 0x800d798, load size 86356
+Transfer rate: 21083 KB/sec, 9595 bytes/write.
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x145a4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801472c
+Loading section .data, size 0xa20 lma 0x8014734
+Start address 0x800d798, load size 86356
+Transfer rate: 28110 KB/sec, 9595 bytes/write.
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x145a4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801472c
+Loading section .data, size 0xa20 lma 0x8014734
+Start address 0x800d798, load size 86356
+Transfer rate: 28110 KB/sec, 9595 bytes/write.
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x145a4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801472c
+Loading section .data, size 0xa20 lma 0x8014734
+Start address 0x800d798, load size 86356
+Transfer rate: 28110 KB/sec, 9595 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x145a4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801472c
+Loading section .data, size 0xa20 lma 0x8014734
+Start address 0x800d798, load size 86356
+Transfer rate: 28110 KB/sec, 9595 bytes/write.
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x145a4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801472c
+Loading section .data, size 0xa20 lma 0x8014734
+Start address 0x800d798, load size 86356
+Transfer rate: 14055 KB/sec, 9595 bytes/write.
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x145a4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801472c
+Loading section .data, size 0xa20 lma 0x8014734
+Start address 0x800d798, load size 86356
+Transfer rate: 21083 KB/sec, 9595 bytes/write.
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x145a4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801472c
+Loading section .data, size 0xa20 lma 0x8014734
+Start address 0x800d798, load size 86356
+Transfer rate: 21083 KB/sec, 9595 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x145a4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801472c
+Loading section .data, size 0xa20 lma 0x8014734
+Start address 0x800d798, load size 86356
+Transfer rate: 28110 KB/sec, 9595 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x145a4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801472c
+Loading section .data, size 0xa20 lma 0x8014734
+Start address 0x800d798, load size 86356
+Transfer rate: 28110 KB/sec, 9595 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x143e4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801456c
+Loading section .data, size 0xa20 lma 0x8014574
+Start address 0x800d5d4, load size 85908
+Transfer rate: 27964 KB/sec, 9545 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x143f4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801457c
+Loading section .data, size 0xa20 lma 0x8014584
+Start address 0x800d5e4, load size 85924
+Transfer rate: 27970 KB/sec, 9547 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x143f4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801457c
+Loading section .data, size 0xa20 lma 0x8014584
+Start address 0x800d5e4, load size 85924
+Transfer rate: 27970 KB/sec, 9547 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x143e4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801456c
+Loading section .data, size 0xa20 lma 0x8014574
+Start address 0x800d5d4, load size 85908
+Transfer rate: 27964 KB/sec, 9545 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x14d54 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x8014edc
+Loading section .data, size 0xa20 lma 0x8014ee4
+Start address 0x800dd4c, load size 88324
+Transfer rate: 28751 KB/sec, 9813 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x14d54 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x8014edc
+Loading section .data, size 0xa20 lma 0x8014ee4
+Start address 0x800dd4c, load size 88324
+Transfer rate: 28751 KB/sec, 9813 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x14b14 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x8014c9c
+Loading section .data, size 0xa20 lma 0x8014ca4
+Start address 0x800db90, load size 87748
+Transfer rate: 28563 KB/sec, 9749 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x14b14 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x8014c9c
+Loading section .data, size 0xa20 lma 0x8014ca4
+Start address 0x800db90, load size 87748
+Transfer rate: 28563 KB/sec, 9749 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x14b14 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x8014c9c
+Loading section .data, size 0xa20 lma 0x8014ca4
+Start address 0x800db90, load size 87748
+Transfer rate: 28563 KB/sec, 9749 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x15414 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801559c
+Loading section .data, size 0xa20 lma 0x80155a4
+Start address 0x800e034, load size 90052
+Transfer rate: 29313 KB/sec, 10005 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x15414 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801559c
+Loading section .data, size 0xa20 lma 0x80155a4
+Start address 0x800e034, load size 90052
+Transfer rate: 29313 KB/sec, 10005 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x15414 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801559c
+Loading section .data, size 0xa20 lma 0x80155a4
+Start address 0x800e034, load size 90052
+Transfer rate: 29313 KB/sec, 10005 bytes/write.
+Ignoring packet error, continuing...
+warning: unrecognized item "timeout" in "qSupported" response
+charge_binaire.gdb:5: Error in sourced command file:
+Remote communication error.  Target disconnected.: Connexion ré-initialisée par le correspondant.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x15414 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801559c
+Loading section .data, size 0xa20 lma 0x80155a4
+Start address 0x800e034, load size 90052
+Transfer rate: 14656 KB/sec, 10005 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x15414 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801559c
+Loading section .data, size 0xa20 lma 0x80155a4
+Start address 0x800e034, load size 90052
+Transfer rate: 14656 KB/sec, 10005 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x15414 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801559c
+Loading section .data, size 0xa20 lma 0x80155a4
+Start address 0x800e034, load size 90052
+Transfer rate: 14656 KB/sec, 10005 bytes/write.
+charge_binaire.gdb:5: Error in sourced command file:
+Remote communication error.  Target disconnected.: Connexion ré-initialisée par le correspondant.
+charge_binaire.gdb:5: Error in sourced command file:
+Remote communication error.  Target disconnected.: Connexion ré-initialisée par le correspondant.
+charge_binaire.gdb:5: Error in sourced command file:
+Remote communication error.  Target disconnected.: Connexion ré-initialisée par le correspondant.
+charge_binaire.gdb:5: Error in sourced command file:
+Remote communication error.  Target disconnected.: Connexion ré-initialisée par le correspondant.
+charge_binaire.gdb:5: Error in sourced command file:
+Remote communication error.  Target disconnected.: Connexion ré-initialisée par le correspondant.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x15414 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801559c
+Loading section .data, size 0xa20 lma 0x80155a4
+Start address 0x800e034, load size 90052
+Transfer rate: 14656 KB/sec, 10005 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x15414 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801559c
+Loading section .data, size 0xa20 lma 0x80155a4
+Start address 0x800e034, load size 90052
+Transfer rate: 14656 KB/sec, 10005 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x15414 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801559c
+Loading section .data, size 0xa20 lma 0x80155a4
+Start address 0x800e034, load size 90052
+Transfer rate: 14656 KB/sec, 10005 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x15414 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801559c
+Loading section .data, size 0xa20 lma 0x80155a4
+Start address 0x800e034, load size 90052
+Transfer rate: 14656 KB/sec, 10005 bytes/write.
+charge_binaire.gdb:5: Error in sourced command file:
+localhost:2331: Connexion terminée par expiration du délai d'attente.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x15414 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801559c
+Loading section .data, size 0xa20 lma 0x80155a4
+Start address 0x800e034, load size 90052
+Transfer rate: 14656 KB/sec, 10005 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x15414 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801559c
+Loading section .data, size 0xa20 lma 0x80155a4
+Start address 0x800e034, load size 90052
+Transfer rate: 14656 KB/sec, 10005 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x15414 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801559c
+Loading section .data, size 0xa20 lma 0x80155a4
+Start address 0x800e034, load size 90052
+Transfer rate: 14656 KB/sec, 10005 bytes/write.
+charge_binaire.gdb:5: Error in sourced command file:
+localhost:2331: Connexion terminée par expiration du délai d'attente.
+charge_binaire.gdb:5: Error in sourced command file:
+localhost:2331: Connexion terminée par expiration du délai d'attente.
+charge_binaire.gdb:5: Error in sourced command file:
+localhost:2331: Connexion terminée par expiration du délai d'attente.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x167d4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801695c
+Loading section .data, size 0xa20 lma 0x8016964
+Start address 0x800f3e4, load size 95108
+Transfer rate: 30959 KB/sec, 3658 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x167d4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801695c
+Loading section .data, size 0xa20 lma 0x8016964
+Start address 0x800f3e4, load size 95108
+Transfer rate: 23219 KB/sec, 3658 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x167d4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801695c
+Loading section .data, size 0xa20 lma 0x8016964
+Start address 0x800f3e4, load size 95108
+Transfer rate: 30959 KB/sec, 3658 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x167d4 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x801695c
+Loading section .data, size 0xa20 lma 0x8016964
+Start address 0x800f3e4, load size 95108
+Transfer rate: 30959 KB/sec, 3658 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 31044 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 11641 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 7761 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 7164 KB/sec, 3668 bytes/write.
+charge_binaire.gdb:5: Error in sourced command file:
+Unknown remote qXfer reply: OK
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 7761 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 7164 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 7761 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 23283 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 23283 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 23283 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 23283 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 18626 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 13304 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 7164 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 31044 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 31044 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 31044 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 5820 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 7164 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 7164 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 5820 KB/sec, 3668 bytes/write.
+charge_binaire.gdb:5: Error in sourced command file:
+localhost:2331: Connexion terminée par expiration du délai d'attente.
+charge_binaire.gdb:5: Error in sourced command file:
+localhost:2331: Connexion terminée par expiration du délai d'attente.
+charge_binaire.gdb:5: Error in sourced command file:
+localhost:2331: Connexion terminée par expiration du délai d'attente.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 6208 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 6652 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 10348 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 6208 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 4434 KB/sec, 3668 bytes/write.
+charge_binaire.gdb:5: Error in sourced command file:
+localhost:2331: Connexion terminée par expiration du délai d'attente.
+charge_binaire.gdb:5: Error in sourced command file:
+localhost:2331: Connexion terminée par expiration du délai d'attente.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 31044 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 31044 KB/sec, 3668 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x168d8 lma 0x80001a0
+Loading section .ARM, size 0x8 lma 0x8016a78
+Loading section .data, size 0xa20 lma 0x8016a80
+Start address 0x800f56c, load size 95368
+Transfer rate: 31044 KB/sec, 3668 bytes/write.
+charge_binaire.gdb:5: Error in sourced command file:
+localhost:2331: Connexion refusée.
+charge_binaire.gdb:5: Error in sourced command file:
+localhost:2331: Connexion refusée.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x18218 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x80183a0
+Loading section .data, size 0xa20 lma 0x80183a8
+Start address 0x8010c5d, load size 101832
+Transfer rate: 12430 KB/sec, 10183 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x18218 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x80183a0
+Loading section .data, size 0xa20 lma 0x80183a8
+Start address 0x8010c5d, load size 101832
+Transfer rate: 14206 KB/sec, 10183 bytes/write.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x18218 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x80183a0
+Loading section .data, size 0xa20 lma 0x80183a8
+Start address 0x8010c5d, load size 101832
+Transfer rate: 24861 KB/sec, 10183 bytes/write.
+Reset_Handler () at lib/startup_stm32f4xx.s:69
+69	  movs  r1, #0
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x18218 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x80183a0
+Loading section .data, size 0xa20 lma 0x80183a8
+Start address 0x8010c5d, load size 101832
+Transfer rate: 33148 KB/sec, 10183 bytes/write.
+charge_binaire.gdb:5: Error in sourced command file:
+Remote communication error.  Target disconnected.: Connexion ré-initialisée par le correspondant.
+charge_binaire.gdb:5: Error in sourced command file:
+localhost:2331: Connexion refusée.
+0x00000000 in ?? ()
+Loading section .isr_vector, size 0x188 lma 0x8000000
+Loading section .text, size 0x184e0 lma 0x8000188
+Loading section .ARM, size 0x8 lma 0x8018668
+Loading section .data, size 0xa20 lma 0x8018670
+Start address 0x8010f29, load size 102544
+Transfer rate: 11126 KB/sec, 10254 bytes/write.

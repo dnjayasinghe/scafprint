@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/fat_fs/src/option
+END
+syncobj.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/fat_fs/src/option/syncobj.c
+END
+ccsbcs.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/trusted_computing/!svn/ver/18740/ecc_dugardin/cibles/STM32F4_USB_CDC/lib/fat_fs/src/option/ccsbcs.c
+END

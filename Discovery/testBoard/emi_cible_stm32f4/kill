@@ -1,0 +1,13 @@
+make[1]: entrant dans le répertoire « /cal/homes/znajm/work/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/emi_cible_stm32f4 »
+#pkill -9 JLkGDB.sh
+#JLinkGDBServer -select usb -if jtag -speed 25000 -device stm32f407vg&
+./configure.pl "pgm" "cfg.gdb" "build/stm32f4_usb_cdc_mini_ecsm.elf"
+thanks, you gave me 3 command-line arguments.
+chargement de l'elf sur la carte ... 387
+383
+cfg.gdb:6: Error in sourced command file:
+localhost:2331: Connexion refusée.
+#arm-none-eabi-gdb macro.elf --quiet --batch --command=cfg.gdb
+#pkill -9 JLinkGDBServer
+#./JLkGDB.sh > JLKGDB.log&
+make[1]: quittant le répertoire « /cal/homes/znajm/work/15_XXX_FIAGCM/ECDSA/mini-ecsm/mini_gmp-arm/emi_cible_stm32f4 »
